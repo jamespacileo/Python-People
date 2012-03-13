@@ -3,6 +3,9 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+import os
+PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
+
 ADMINS = (
      ('James Pacileo', 'jamespaxi@gmail.com'),
      ('Dan Stephenson', 'dan@ibox.com')
