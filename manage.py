@@ -1,11 +1,4 @@
 #!/usr/bin/env python
-
-#--APPS FOLDER
-import sys
-from os.path import abspath, dirname, join
-from site import addsitedir
-#--APPS FOLDER
-
 from django.core.management import execute_manager
 import imp
 try:
@@ -16,10 +9,6 @@ except ImportError:
     sys.exit(1)
 
 import settings
-
-#--APPS FOLDER
-sys.path.insert(0, join(settings.ROOT_PATH, "apps"))
-#--APPS FOLDER
 
 if __name__ == "__main__":
     execute_manager(settings)
