@@ -9,3 +9,4 @@ project_files**
 web.config
 *.log
 *.DS_Store
+local_settings.py
