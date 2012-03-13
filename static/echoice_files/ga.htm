@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta http-equiv="EXPIRES" content="Mon, 1 Jan 1999 14:10:00 GMT">
+<title>Object Cache file creation error</title>
+</head>
+<script language="JavaScript">
+<!--
+//ensure we're not running inside a Frame
+//if (top != self){
+//	top.location=location
+// }
+
+// errorstat contains the Full error message
+var errorstat="500 Internal Server Error" ;
+// errorcode is just the 1st 3 character, ie. the numeric error code
+var errorcode=errorstat.substring(0,3);
+
+function blankpage()
+// used to fill in the blank frames - Netscape seems to require it
+{
+return "<HTML></HTML>";
+}
+function errs()
+// this function creates the top part of the screen
+{
+var msg='<body bgcolor="#FFFFFF" link="#FF0000" vlink="#FF0000" alink="#800040" >' ;
+msg += '<img SRC="http://10.127.241.37:1959/data/errors/logorsa.gif" ALT="RSA" BORDER=0 height=58 width=112 Align=left>' ;
+msg += '<center><H1>There was a problem with your request</H1></center><P><br><br>There was an error of type <b>'+errorstat ;
+msg += '</B> when you attempted to access <B>'+document.location.host+'</B><P><P><B>'+document.title+'</B></BODY></HTML>' ;
+return msg;
+}
+function dodesc()
+// We don't have any error messages for ones < 400 - just put out a generic error page, just in case
+{
+if (errorcode<400){
+	errordesc.location.href=" http://10.127.241.37:1959/data/errors/logo.htm" ;
+	}
+else {
+	var gourl="http://10.127.241.37:1959/data/errors/"+errorcode+".htm$"+escape(errorstat)+"$"+escape(document.title)+"$"+document.location.host ;
+	errordesc.location.replace(gourl) ;
+
+	}
+}
+function bottom()
+{
+// This is where you put a message to be shown on every page
+return '</head><body><b>If you require more information, please call the UK Service Centre. </b><br>Internal - 7979, External 0800 107 9033<br>Proxy: gb04qws010pxyw7</body></html>';
+}
+function logo()
+// This function puts the BM logo in the bottom-right
+{
+return '<html><body><img SRC="http://10.127.241.37:1959/data/bm_anim.gif" ALT="BM" BORDER=0 align="middle" align="right" ></body></html>';
+}
+// -->
+</script>
+<FRAMESET ROWS=200,*,100 BORDER="0" fRAMEBORDER="no" FRAMESPACING="0" FRAMEBORDER="0" onLoad="dodesc()">
+	<FRAME NAME="showerror" SRC="javascript:parent.errs()" >
+		<FRAMESET COLS=1%,99% BORDER="0" FRAMEBORDER="no" FRAMESPACING="2" FRAMEBORDER="0"  >
+			<FRAME NAME="nogood" SRC="javascript:parent.blankpage()" >
+			<FRAME NAME="errordesc" SRC="javascript:parent.blankpage()" >
+		</FRAMESET>
+	<FRAMESET BORDER="0" FRAMEBORDER="no" FRAMESPACING="2" >
+		<frame src="javascript:parent.bottom()" >
+	</FRAMESET>
+</FRAMESET>
+</html>

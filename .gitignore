@@ -1,2 +1,11 @@
+virtualenv
 *.pyc
+*.pyo
+*.db
 .idea**
+project_files**
+*.dll
+.svn**
+web.config
+*.log
+*.DS_Store

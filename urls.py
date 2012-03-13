@@ -1,17 +1,23 @@
-from django.conf.urls.defaults import patterns, include, url
-
-# Uncomment the next two lines to enable the admin:
+import os
+from django.conf.urls.defaults import *
+from django.views.generic.simple import direct_to_template
+from django.conf import settings
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'PythonPeople.views.home', name='home'),
-    # url(r'^PythonPeople/', include('PythonPeople.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    url(r'^admin/', include(admin.site.urls)),
+urlpatterns = patterns('django.views.generic.simple',
+    #(r'^$',			'direct_to_template', {'template': 'base.html'}),
 )
+
+urlpatterns += patterns('',
+	url(r'^admin/', 		include(admin.site.urls)),
+	url(r'^grappelli/', 	include('grappelli.urls')),
+	url('',					include('core.urls')),
+)
+
+if settings.DEBUG:
+
+    urlpatterns += patterns('',
+        (r'^static/(.*)$', 'django.views.static.serve', {'document_root': os.path.join(settings.ROOT_PATH, '', 'static')}),
+        (r'^data/(.*)$', 'django.views.static.serve', {'document_root': os.path.join(settings.ROOT_PATH, '', 'data')}),
+    )

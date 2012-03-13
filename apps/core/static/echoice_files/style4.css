@@ -1,0 +1,486 @@
+/*RSA Stylesheet */
+
+
+
+#popupMain.print .excessSummary dl{margin:10px 0;}
+
+#popupMain.print .quote_values p.apr_data{width:612px; margin:4px 25px;}
+/*
+ These rules are making items overlap in the printable summary
+#popupMain.print .quote_values .plus{width:120px;}
+#popupMain.print .quote_values .equals{width:162px;}
+*/
+#popupMain.print .quote_values .total{padding-left:10px; vertical-align:bottom;}
+#popupMain.print .quote_values .value{font-size:1.2em;}
+
+#popupMain.print .excessSummary dl dt{font-size:1em;}
+#popupMain.print .excessSummary dl.list{padding-left:17px !important; margin-top:10px;}
+#popupMain.print .excessSummary dl dt.sml{width:120px;}
+#popupMain.print .excessSummary dl dt.lrg{width:280px;}
+#popupMain.print .excessSummary dl.list dl dt{background:0; padding-left:0; font-weight:normal;}
+#popupMain.print .excessSummary dl dt{font-weight:bold; float:left; width:205px;}
+#popupMain.print .excessSummary dl dd dl{margin-top:0;}
+#popupMain.print .excessSummary dl dd dl dt{width:80px;}
+#popupMain.print .excessSummary dl dt span{font-weight:normal;}
+
+#popupMain.print .excessSummary table{width:310px; margin-left:17px; font-size:1em;}
+#popupMain.print .excessSummary table th{border:0; width:250px; text-align:left; font-weight:bold; vertical-align:top; padding-bottom:0;}
+#popupMain.print .excessSummary table th span.list{padding-left:12px !important; font-size:1em;}
+#popupMain.print .excessSummary table td{border:0; text-align:left; font-weight:normal; padding-bottom:0;}
+#popupMain.print .excessSummary table td dl{padding-left:0; margin-top:0;}
+#popupMain.print .excessSummary table td dt{width:auto; float:left; padding-bottom:4px; padding-left:0; font-weight:normal; white-space:nowrap;}
+#popupMain.print .excessSummary table td dd{float:right;}
+
+#popupMain.print .excessSummary dl .total{font-weight:bold;}
+
+address span{display:block; font-style:normal;}
+
+.confirmation-premium-price{background-repeat:no-repeat; width:166px; height:89px; margin:10px 10px 10px 0; float:right;}
+.confirmation-premium-price th, .confirmation-premium-price td{font-size:1.4em; font-weight:bold; padding:5px 8px 0 8px; text-align:right;}
+.confirmation-premium-price th{font-size:1.3em; vertical-align:bottom;}
+.confirmation-premium-price td{font-size:3.4em; padding:0 6px 0 0; vertical-align:top;}
+.confirmation-premium-price td span.decimals{font-size:0.8em;}
+.confirmation-premium-price td span.period{display:block; float:right; font-size:0.3em; font-weight:bold; line-height:1em; margin-left:7px;}
+
+.wrapper-3 p.policy-details, .currentDetails p.policy-details{padding:2px 10px;}
+.wrapper-3 p.policy-details{font-size:1.4em !important;}
+
+.formGrab ul{margin-bottom:30px;}
+
+.leftCol .licencePlate{float:right;}
+.licencePlate{background-repeat:no-repeat; background-position:0 0; font-weight:bold; float:none; display:block;}
+.licencePlateA{height:17px; background-repeat:no-repeat; background-position:100% 0; margin-left:8px; padding:3.5px 8px 4px 4px; float:left; display:block;}
+.quick-view .licencePlate{float:left;}
+
+#borderEmailOverlay{border-bottom: 1px solid rgb(90, 45, 127);}
+
+#block2 .mta a.pdf{background-repeat:no-repeat; padding:4px 0 0 30px; height:25px; display:block; float:left;}
+
+ul.policy-details li, ul.policy-details-2 li{padding:0 0 12px; font-size:1.2em;}
+ul.policy-details .leftCol{width:130px;}
+ul.policy-details-2 .leftCol{width:140px;}
+ul.policy-details .rightCol{width:400px; padding-left:10px;}
+.twoBlocks .mta ul.policy-details .rightCol{width:380px;}
+ul.policy-details-2 .rightCol{width:385px; padding-left:10px;}
+ul.policy-details .rightCol a, ul.policy-details-2 .rightCol a{float:right; text-align:left; width:167px; padding-top:4px; font-size:0.8em;}
+ul.policy-details label, ul.policy-details-2 label{width:100px; padding:0; margin-left:17px; float:right;}
+ul.policy-details-2 label{width:140px;}
+ul.policy-details-2 label{font-weight:bold;}
+.formSection ul.policy-details .savedAnswer, .formSection ul.policy-details-2 .savedAnswer{font-weight:bold; width:177px; padding:8px 40px 10px 0px; background-repeat:no-repeat; background-position:100% 0; float:left;}
+#block2 .formSection ul.policy-details-2 .savedAnswer{font-weight:normal; padding:2px 40px 10px 0; width:150px;}
+ul.policy-details .rightCol select{vertical-align:middle;}
+
+.formSection ul.policy-details-2 .licencePlate{float:left; margin-left:8px;}
+.formSection ul.policy-details-2 .rightCol a{float:right; width:auto; clear:none; margin-left:8px;}
+
+#block2 .formSection ul.policy-details .rightCol span.button-05{float:right; margin:6px 0 0 !important;}
+
+#block2 .formSection ul.policy-details .rightCol span.button-04{vertical-align:middle;}
+
+.premiumPanel h3 span.button-05, .premiumPanel h3 span.button-05 input, .grey-panel-footer span.button-05, .grey-panel-footer span.switchPrices input{display:inline; height:auto;}
+
+.panel-5{float:right; margin:0 29px 8px 12px;}
+
+.panel-3, .panel-3a, .panel-3b, .panel-4, .panel-6{width:500px; margin-left:37px; margin-bottom:20px; padding-top:8px;}
+#block2 .panel-6B p{padding:0 12px 10px 12px;}
+#block2 .panel-6B p.last{padding-bottom:0;}
+#block2 .panel-6B p em{font-weight:bold; font-style:normal;}
+
+.renewal .panel-3, .renewal .panel-3a, .renewal .panel-3b, .renewal .panel-6,
+.mta .panel-3, .mta .panel-3a, .mta .panel-3b{padding-top:0; margin:0 auto 20px;}
+.panel-3 table, .panel-4 table{width:500px; margin:0;}
+.panel-3 table td{margin:10px; padding:12px 8px; border-bottom:1px solid;}
+.panel-3 table tr.last td{border:0;}
+
+.panel-3B .headerButtons{margin:10px 53px 0 0; float:right; width:100px; padding:0;}
+
+.panel-3B ul, .panel-4B ul{padding:8px 8px 0; width:325px; float:left; margin-bottom:10px;}
+.panel-4B ul{width:480px; float:none;}
+.panel-3B ul li{width:160px; float:left;}
+.panel-4B ul li{width:230px; float:left;}
+.panel-3B ul li a, .panel-4B ul li a{padding:4px 0 0 4px; float:left; width:125px; font-size:1.2em;}
+.panel-4B ul li a{width:150px; line-height:1.2em;}
+
+.panel-3a .panel-3B, .panel-3b .panel-3B{font-size:1.2em;}
+.panel-3a ul, .panel-3b .panel-3B dl{display:block; float:none; padding:0;}
+.panel-3a .panel-3B li, .panel-3b .panel-3B dl{display:block; float:none; clear:both; margin:0; padding:8px 0 8px 12px; background-repeat:no-repeat; background-position:1px 100%; width:494px;}
+.panel-3b .panel-3B dl{background-repeat:no-repeat; background-position:1px 0; width:485px; padding-left:36px;}
+.panel-3a .panel-3B li.last{background:0;}
+.panel-3a .panel-3B dl dt, .panel-3b .panel-3B dl dt{margin-left:8px; float:left; font-weight:bold;}
+.panel-3b .panel-3B dl dt{margin-left:0;}
+.panel-3b .panel-3B dl dt{font-weight:normal; padding:4px 0 8px 0;}
+.panel-3b .panel-3B dl dt .icon{float:left; width:30px; height:20px; padding:0; margin-right:3px; margin-left:-8px;}
+.panel-3b .panel-3B dl dt span{display:block; padding:15px 0 0 25px;}
+.panel-3a .panel-3B dl dd, .panel-3b .panel-3B dl dd{margin-right:12px; float:right; text-align:left; width:118px; font-weight:bold; vertical-align:bottom;}
+.panel-3b .panel-3B dl dd{padding:4px 46px 12px 0;}
+.panel-3b .panel-3B dl.multiline dd{padding-top:28px;}
+.panel-3a .panel-3B p.sml, .panel-3b .panel-3B p.sml{clear:both; font-size:0.85em; padding-bottom:10px;}
+.panel-3b .panel-3B p.sml{padding-left:30px;}
+.panel-3b #extraCoverOptionsSummary p.sml{padding-left:15px;}
+
+#main .mta p.sml{font-weight:normal;}
+#main .alt1 .grey-panel-footer h3{font-weight:bold; font-size:1.2em; line-height:1em; margin-bottom:3px;}
+#main .alt1 .grey-panel-footer p{float:left; padding-right:8px;}
+#main .alt1 .grey-panel-footer p, #main .alt1 .grey-panel-footer h3{width:202px;}
+#main .alt1 .extendedWidth .grey-panel-footer p{width:472px;}
+#main .alt1 .grey-panel-footer p.total{width:125px; margin-top:-20px;}
+#main .alt1 .grey-panel-footer p a{float:left; padding-right:8px; margin-top:10px;}
+#main .alt1 .grey-panel-footer span.value{font-weight:bold; font-size:3.8em; line-height:1em; display:block; letter-spacing:-0.05em;}
+#main .alt1 .grey-panel-footer span.decimals{font-weight:bold; font-size:0.7em; line-height:1em;}
+#main .alt1 .grey-panel-footer span.button-02, #main .alt1 .grey-panel-footer span.button-12{width:134px; float:right; margin:-11px 0 0;}
+#main .alt1 .grey-panel-footer .button-02 input, #main .alt1 .grey-panel-footer .button-12 input{width:130px; padding:0 4px;}
+
+.twoBlocks .formSection .grey-panel-footer .formInputs li{background-position:10px 100%;}
+.twoBlocks .formSection .grey-panel-footer .formInputs li.highlight, .twoBlocks .formSection .grey-panel-footer .formInputs li.error{background-position:0 100%;}
+
+.panel-3A, .panel-4A, .panel-6A, .panel-3 th.main{height:25px; background-repeat:no-repeat;}
+.panel-3A, .panel-4A, .panel-3 th.main{height:25px; background-repeat:no-repeat;}
+.panel-3A h4, .panel-4 .panel-4A h4, .panel-6A h4, .panel-3 .panel-3A h3, .panel-3 th.main, .panel-5 .panel-5A p{font-size:1.2em; font-weight:bold; line-height:1em; padding:6px 0 0 12px;}
+
+.panel-3A h4, .panel-3A p, .panel-3A h3, .panel-6A h4, .panel-6A p, .panel-6A h3, .panel-3 th.main, .panel-4A h4, .panel-5A p{font-size:1.2em; font-weight:bold; line-height:1em; padding:6px 0 0 12px;}
+.panel-6B h4{line-height:1em; padding:6px 0 6px 8px; margin:2px 10px 2px 10px; font-weight:bold; font-size:1.3em;}
+
+.panel-3B span.button-05 input{width:138px;}
+.panel-3B p, .panel-6B p, .panel-5 .panel-5B p{padding:4px 21px 4px 12px; font-size:1em;}
+.panel-6B p{font-size:1.2em;}
+
+.panel-6B ol{list-style-type:decimal; font-size:1.2em; margin:10px; margin-top:0;}
+.panel-6B ol li{padding-left:2px; list-style-position:inside; margin-bottom:4px;}
+
+.panel-3B, .panel-4B, .panel-6B{background-repeat:no-repeat; background-position:0 100%; padding-bottom:5px; padding-top:3px;}
+.panel-3B, .panel-6B{background-repeat:repeat-y; background-position:0 0;}
+.panel-3C, .panel-4C, .panel-6C{background-repeat:no-repeat; height:4px; overflow:hidden; background-position:0 100%;}
+
+.panel-5A{height:25px;}
+.panel-5A, .panel-5B{width:189px; background-repeat:no-repeat;}
+.panel-5B{background-position:0 100%; padding-bottom:5px;}
+.panel-5B img{margin:6px 12px;}
+
+.panel-6B{padding-top:5px;}
+
+.withButtons{position:relative;}
+.withButtons .theButtons{position:absolute; bottom:0; right:0; margin-right:-198px; text-align:right;}
+.withButtons .theButtons span{margin-top:9px;}
+.withButtons .theButtons, .withButtons .theButtons span{width:192px;}
+.withButtons .theButtons input{width:189px;}
+
+.afterEmptyFormSection{margin-top:0 !important;}
+
+#block2 .mta ul.downloads{background-repeat:no-repeat; background-position:50% 0; font-size:100%;}
+#block2 .mta .panel-3 ul.downloads{width: 478px; background: 0; margin-bottom:0 !important;}
+#block2 .mta ul.downloads .leftCol label{padding-top:5px; text-align:left; padding-left:39px; font-size:1.2em;}
+#block2 .mta .panel-3 ul.downloads .leftCol label{padding-left:13px;}
+#block2 .mta ul.downloads .leftCol{width:320px;}
+#block2 .mta .panel-3 ul.downloads .leftCol{width:300px;}
+#block2 .mta ul.downloads .rightCol{width:220px;}
+#block2 .mta .panel-3 ul.downloads .rightCol{width:165px;}
+#block2 .mta ul.downloads .rightCol a{padding-top:6px; float:left; clear:none; margin-right:10px;}
+#block2 .mta ul.downloads li{padding:4px 0; background-repeat:no-repeat; background-position:50% 100%;}
+#block2 .mta .panel-3 ul.downloads li{width:486px; float: none; clear:both;}
+#block2 .mta ul.downloads li.last, #block2 .mta ul.formInputs li.last{background:0; padding-bottom:15px;}
+#block2 .mta .panel-3 ul.downloads li.last{padding-bottom:0 !important;}
+
+.mta table.quick-view{margin:0 0 20px 18px; width:537px;}
+
+.mta .panel-3B table.quick-view{margin:0 0 0 4px; width:488px;}
+.mta table.quick-view td, .mta table.quick-view th{border-top:1px solid; padding:14px 0 14px 6px; font-size:1em; vertical-align:middle;}
+.mta table.quick-view td{font-weight:bold; width:115px;}
+.mta table.quick-view td.vehicle span{background-position:0 -69px; background-attachment:scroll; background-repeat:no-repeat; padding-left:27px; display:block;}
+
+.mta #quick_view .panel-3B p{width:285px; float:left; padding:12px; font-size:1em;}
+#block2 .mta #quick_view .panel-3B .button-04{margin:14px 11px;}
+.mta #quick_view .panel-3B .button-04 input{width:155px;}
+
+.contentTable{background-repeat:no-repeat; background-position:50% bottom; margin-bottom:4px;}
+.contentTable table th{font-weight:bold;}
+.contentTable table th{padding:5px;}
+.contentTable table td{padding:7px 5px;}
+.contentTable table td {border-top: 1px solid #A8A69D;}
+.contentTable table td, .contentTable table th {border-left: 1px solid #A8A69D;}
+
+/* Brochure */
+.brochure #block2 em{font-style:normal; font-weight:bold;}
+.brochure #block2 p.footnote{clear:both; text-align:right; font-style:italic; font-size:1em; margin-bottom:0 !important;}
+.brochure #block2 p.footnote a{font-weight:bold;}
+.brochure #block2 ul.downloads, .contentTable table{background-repeat:no-repeat; margin:0 0 0 34px; padding:4px 0 0; font-size:1.2em;}
+.contentTable table{margin-right:37px; margin-left:36px;}
+#popupMain .contentTable{width:450px; margin-left:40px;}
+#popupMain .contentTable table{margin:0;}
+.brochure #block2 ul.downloads li{background-repeat:no-repeat; background-position:0 100%; height:38px;}
+.brochure #block2 ul.downloads li.last, .contentTable{padding-bottom:4px;}
+.brochure #block2 ul.downloads .leftCol, .brochure #block2 ul.downloads .rightCol{padding:10px 8px; text-align:left;}
+.brochure #block2 ul.downloads .leftCol{width:340px; font-weight:bold;}
+.brochure #block2 ul.downloads .rightCol{width:120px;}
+.brochure #block2 a.pdf{text-decoration:none; background-repeat:no-repeat; background-position:100% 50%; padding:2px 0px 2px; height:20px; margin-top:-3px;}
+
+.brochure img.p-img{float:right; margin:0 30px 10px 20px;}
+
+.home .rsaLogo p{background-repeat:no-repeat; background-position:right bottom; padding-bottom:20px;}
+
+.forgottenQuoteReference{display:block; margin:10px 0 0 21px;}
+.home select.lrg{width:161px;}
+.home #error .formSectionA{height:0;}
+
+#block1 ul.list li div p{margin:0;}
+
+.policyNotListed, .policyNotListed p, ul.policy-details .rightCol .policyNotListed a{display:inline; width:120px; padding:0 0 0 1px; float:none;}
+
+.recalcDD{float:right; margin-right:8px;}
+
+#nojsPaymentButton .grey-panel-footer{height:auto;}
+#nojsPaymentButton .grey-panel{margin-top:0;}
+#nojsPaymentButton{text-align:left;}
+
+.simpleSummaryInfo{margin:3px 0 0 38px; font-size:1.2em; line-height:1.2em;}
+.simpleSummaryInfo label{padding:0 20px 0 0; font-weight:bold; display:inline;}
+.simpleSummaryInfo .leftCol, .simpleSummaryInfo .rightCol{width:auto; text-align:left; padding:0 40px 0 0; white-space:nowrap;}
+
+.headerWithPolicyNumberContainer{position:relative;}
+.headerWithPolicyNumberContainer .policyNumberHeader{position:absolute; top:15px; right:27px;}
+.headerWithPolicyNumberContainer .policyNumberHeader p{font-size:1em;}
+
+.claimDetailArea{display:none; padding:0 38px;}
+.JSOFF .claimDetailArea{display:block;}
+.claimAnswer{display:none;}
+.JSOFF .claimAnswer{display:block;}
+.claimQuestion{cursor:pointer;}
+.JSOFF .claimQuestion{cursor:auto;}
+
+ul.noTopBorder{background-image:none !important;}
+
+#block2 li.ajaxInsert{padding-bottom:0;}
+
+/* ADDITIONAL STYLING REQUIRED FOR CURRENCY WCM TAG */
+.panel-725-submit p.currency{width:auto; line-height:1em;}
+
+/* ADDITIONAL STYLING REQUIRED FOR WCM CONTROLLED ADD-ONS */
+.panel-1B ul.packageoptions li{border:0 none; display:inline-block; vertical-align:top; width:180px; float:none; margin:0;}
+.panel-1B ul.packageoptions li a{font-weight:normal;}
+.panel-3B ul.packageoptions li span.price{margin:-5px 0 0 34px; padding-bottom:5px; font-size:1em !important; display:block;}
+.panel-3B ul.packageoptions li span.details{display:block; margin:-8px 0 5px 34px;}
+
+.twoBlocks #callCentreOptions{padding-left:99px;}
+
+ul.packageoptions, #callCentreOptions ul{width:100%; float:none; padding:8px 0 0 0; display:inline;}
+ul.packageoptions li, #callCentreOptions li{width:237px; margin:5px 0 0 9px;float:left;}
+ul.packageoptions li a, #callCentreOptions li a{font-weight:bold; width:160px;}
+.moreCoverOptionsButtonContainer, .editCoverOptionsButtonContainer{float:right; margin:4px 8px 0 0;}
+
+.moreCoverOptionsButtonContainer input{background-attachment:scroll; background-position:0 0; background-repeat:no-repeat; border:0 none; height:36px; overflow:visible; padding:0 5px 7px 0; width:202px; font-size:12px; cursor:pointer;}
+
+
+#block2 ul.packageoptions li .wrapperA, #callCentreOptions li .wrapperA{background-position:0 100%; background-repeat:no-repeat; background-attachment:scroll; height:5px; width:237px;}
+#block2 ul.packageoptions li .wrapperB, #callCentreOptions li .wrapperB{background-position:0 0; background-repeat:repeat-y; background-attachment:scroll; width:237px; }
+#block2 ul.packageoptions li .wrapperC, #callCentreOptions li .wrapperC{background-position:0 0; background-repeat:no-repeat; background-attachment:scroll; clear:both; height:5px; width:237px;}
+
+.twoBlocks #block2 ul.packageoptions li .wrapperA, .twoBlocks #callCentreOptions li .wrapperA{background-position:0 100%; background-repeat:no-repeat; background-attachment:scroll; height:5px; width:237px;}
+.twoBlocks #block2 ul.packageoptions li .wrapperB, .twoBlocks #callCentreOptions li .wrapperB{background-position:0 0; background-repeat:repeat-y; background-attachment:scroll; width:237px; }
+.twoBlocks #block2 ul.packageoptions li .wrapperC, .twoBlocks #callCentreOptions li .wrapperC{background-position:0 0; background-repeat:no-repeat; background-attachment:scroll; clear:both; height:5px; width:237px;}
+
+#block2 ul.packageoptions li .wrapperB .tick, #callCentreOptions li .wrapperB .tick{display:block; background-position:50% 50%; background-repeat:no-repeat; background-attachment:scroll; width:30px; height:30px; float:right; margin-right:4px;}
+#block2 ul.packageoptions li .wrapperB .tick{width:21px;}
+#callCentreOptions li a{margin-left:34px; font-weight:normal;}
+ul.packageoptions li a, #callCentreOptions li a.option{background-repeat:no-repeat; cursor:pointer; text-decoration:underline; display:block; padding:8px 0 10px 35px; float:none; margin-left:0; font-weight:bold; font-size:1em;}
+ul.packageoptions a:hover, ul.packageoptions a:focus, ul.packageoptions a.focus,
+#callCentreOptions a:hover, #callCentreOptions a:focus, #callCentreOptions a.focus,
+ul.packageoptions li a:hover, #callCentreOptions li a.option:hover,
+ul.packageoptions li a:focus, #callCentreOptions li a.option:focus,
+ul.packageoptions li a.focus, #callCentreOptions li a.option.focus{text-decoration:none;}
+
+/* RULES FOR QUOTE AND REGISTRATION OVERLAY - Leave at bottom of file for easy reference */
+.overlay{
+	opacity:1;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-box-shadow:0 0 50px #ccc;
+	-webkit-box-shadow:0 0 50px #ccc;
+	left:33% !important; /* This overwrites the positioning set by the overlay JS */
+}
+.noScrolling{overflow-x:hidden;overflow-y:hidden;}
+#registrationOverlayContainer{top:296px !important; left:198px !important;}
+
+/* RULES FOR AJAX STRUCTURE FIXES - Leave at bottom of file for easy reference */
+#esriLookContainer, #ajax_findVehicle, #esriLookContainer .formElTop, #ajax_findVehicle .formElTop{padding:0;}
+#esriLookContainer .ajaxstyling, #ajax_findVehicle .ajaxstyling{padding-top:8px; padding-bottom:10px; background-repeat:no-repeat; background-position:50% bottom;}
+
+/* autocomplete */
+input.autocomplete-loading{background-position:right -2px; background-repeat:no-repeat;}
+ul.autocomplete{position:absolute; overflow:hidden; border-width:1px; border-style:solid; margin:0; padding:0; list-style:none; display:none; z-index:1000; width:210px !important;}
+.formSection .formInputs li ul.autocomplete li{font-size:1em; display:block; padding:5px 2px 4px 3px; overflow:hidden; width:100%; cursor:pointer;}
+
+#addOnBundles .grey-panel-footer p{font-size:1.2em;}
+#addOnBundles #callCentreOptions{margin-left:22px;}
+#customiseBundle #callCentreOptions, #customiseBundle_a #callCentreOptions{margin-left:10px;}
+.renewal #addOnBundles .grey-panel-footer #callCentreOptions p{padding:30px 10px 0 10px; margin:0;}
+.renewal #addOnBundles .grey-panel-footer p{margin:0 24px; padding:19px 10px 0 10px;}
+.renewal #callCentreOptions p{padding:30px 10px 0 10px; margin:0;}
+#customiseBundle, #customiseBundle_a{margin-bottom:20px;}
+#customiseBundle p, #customiseBundle_a p{margin: 0 30px;}
+#customise{margin-bottom:0;}
+#customise-out{background-position:10px 0; background-repeat:repeat-y; margin:0 29px 0 28px; padding:0;}
+#addOnBundles{margin-top:0;}
+#customise-inner{background-position:10px 100%; background-repeat:no-repeat;}
+#customise table{display:none;}
+.JSOFF #customise table{display:block;}
+#MTAcustomiseContainer, #customiseContainer{display:none;}
+.JSOFF #MTAcustomiseContainer, .JSOFF #customiseContainer{display:block;}
+
+#selected_options .main_option, #unselected_options .main_option{overflow:hidden;}
+#selected_options, #unselected_options{float:right; width:332px; margin: 0 12px 0 0;}
+.mta #selected_options, .mta #unselected_options, .renewal #selected_options, .renewal #unselected_options{width:234px; margin-right:10px;}
+.mta #selected_options, .renewal #selected_options{margin-right:11px; margin-top:10px;}
+.mta #unselected_options, .renewal #unselected_options{margin-top:20px;}
+#options_button{text-align:right;}
+#options_button img{margin:10px 0}
+#selected_options li, #unselected_options li{overflow:hidden; position:relative;}
+#selected_options li li, #unselected_options li li{overflow:visible; position:static;}
+#unselected_options{margin-top:10px; background-repeat:repeat-y; background-attachment:scroll; background-position:0 0;}
+#selected_options{margin-right:18px; background-repeat:repeat-y; background-attachment:scroll; background-position:0 0;}
+#unselected_options li, #selected_options li{padding:0; margin:0 10px 8px;}
+.mta #unselected_options li, .mta #selected_options li, .renewal #unselected_options li, .renewal #selected_options li{margin:0 9px 8px;}
+#unselected_options li li, .mta #unselected_options li li, .renewal #unselected_options li li{margin:0 0 8px;}
+#selected_options li li, .mta #selected_options li li, .renewal #selected_options li li{margin:0; display:none;}
+#selected_options li li.selected{display:block;}
+#unselected_options li{background-repeat:no-repeat; background-attachment:scroll; background-position:0 bottom;}
+#unselected_options li.multiple{background-repeat:no-repeat; background-attachment:scroll; background-position:0 bottom;}
+#unselected_options li li{background-repeat:no-repeat; background-attachment:scroll; background-position:0 bottom;}
+#selected_options li{background-repeat:no-repeat; background-attachment:scroll; background-position:0 bottom;}
+#selected_options li li{background-repeat:no-repeat; background-attachment:scroll; background-position:0 bottom;}
+#unselected_options li .option_container, #selected_options li .option_container{padding:10px; position:relative;}
+#unselected_options li .option_container .button{position:absolute; bottom:0; right:2px; height:44px; width:43px;}
+.mta #unselected_options li .option_container .button, .renewal #unselected_options li .option_container .button{height:52px; top:0;}
+.mta #unselected_options li .option_container .layoutHelper,
+.mta #unselected_options li.multiple li .option_container .layoutHelper,
+.renewal #unselected_options li .option_container .layoutHelper,
+.renewal #unselected_options li.multiple li .option_container .layoutHelper{background-position:50% 6px;}
+#selected_options li .option_container .button{width:50%; overflow:visible;}
+#unselected_options li .option_container .button a{display:block; height:100%; width:43px; overflow:hidden; text-indent:-150px;}
+#selected_options li .option_container .button a{display:block; padding-left:36px; width:150px; clear:left;}
+#selected_options li .option_container .button span.included{display:block; padding-left:36px; width:150px; clear:left; font-size:0.9em;}
+#selected_options li.multiple .button span.included{padding-left:26px;}
+#selected_options li li .option_container .button a{display:block; padding-left:26px; width:100px;}
+
+#unselected_options li .option_container{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0;}
+#unselected_options li.multiple .option_container{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0; padding-right:1px; padding-bottom:3px;}
+#unselected_options li .option_container .option_container{padding:10px;  background-repeat:no-repeat; background-attachment:scroll; background-position:0 0;}
+#selected_options li .option_container{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0; padding-right:1px;}
+#selected_options li li .option_container{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0;}
+#unselected_options h2{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0; font-size:1.2em; font-weight:bold; padding:6px 14px 0; height:29px;}
+#selected_options h2{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0; font-size:1.2em; font-weight:bold; height:33px; padding:12px 14px 0;}
+#unselected_options .options_bottom{background-repeat:no-repeat; background-attachment:scroll; background-position:0 100%; height:6px;}
+#selected_options .options_bottom{background-repeat:no-repeat; background-attachment:scroll; background-position:0 0; font-size:1.7em; font-weight:bold; height:23px; padding:9px 13px 3px 0; text-align:right;}
+#selected_options .options_bottom span.decimals{font-size:0.9em;}
+
+.option_container .option{float:left; width:185px; padding-right:12px;}
+.mta .option_container .option, .renewal .option_container .option{width:96px; padding-bottom:17px;}
+#MTAcustomiseContainer .option_container .option, .renewal .option_container .option{padding-bottom:0;}
+#MTAcustomiseContainer #selected_options .option_container .option{padding-bottom:7px;}
+.mta #unselected_options .option_container .option, .renewal #unselected_options .option_container .option{padding-bottom:12px;}
+.option_container li .option{padding-left:26px; width:149px;}
+.mta .option_container li .option, .renewal .option_container li .option{width:59px;}
+.option_container .option a{background-repeat:no-repeat; background-attachment:scroll; background-position:0 -2px; padding-left:35px; padding-top:3px; margin-bottom:1px; font-size:1.1em; font-weight:bold; height:22px; width:160px; display:block; float:left;}
+.mta .option_container .option a, .renewal .option_container .option a{width:68px;}
+#selected_options .option_container .option a{margin-bottom:0; padding-bottom:0; padding-top:2px;}
+.option_container .price{display:block; float:left; font-size:1.2em !important; font-weight:bold; width:55px; margin-left:10px;}
+.option_container .option_container .price{margin-left:25px;}
+.option_container .price .period{display:block; font-size:0.7em !important; font-weight:bold;}
+#selected_options .option_container .price{position:absolute; right:43px;}
+.option_container .price span{font-size:0.85em !important;}
+
+.minheight{float:left; height:20px; width:1px; font-size:1px;}
+.layoutHelper{float:right; height:100%; position:absolute; right:2px; top:0; width:43px;}
+
+#unselected_options li.multiple .option_container .layoutHelper, #selected_options li.multiple .option_container .layoutHelper{background:0;}
+#unselected_options li .option_container .layoutHelper, #unselected_options li.multiple li .option_container .layoutHelper{background-repeat:no-repeat; background-attachment:scroll; background-position:50% 50%;}
+#selected_options li .option_container .layoutHelper, #selected_options li.multiple li .option_container .layoutHelper{background-repeat:no-repeat; background-attachment:scroll; background-position:50% 50%;}
+
+#options_buttons{padding:10px 0 35px;}
+#options_buttons span{float:right;}
+
+.claim_conviction{margin:20px 0 40px;}
+.claim_conviction h4{width:200px;}
+.claim_conviction .headerButtons{margin-top:-27px;}
+li.hasChildList ul{margin-right:15px; margin-left:15px;}
+li.hasChildList .claim_conviction .formElTop{width:544px; background-repeat:no-repeat; background-attachment:scroll; background-position:50% bottom;}
+li.hasChildList .claim_conviction{margin:0; padding-bottom:0;}
+li.hasChildList .claim_convictionA, li.hasChildList .claim_convictionC{height:5px;font-size:1px;}
+li.hasChildList .claim_convictionA{background-repeat:no-repeat; background-attachment:scroll; background-position:50% top;}
+li.hasChildList .claim_convictionB{background-repeat:repeat-y;  background-attachment:scroll;  background-position:50% 50%;}
+
+li.hasChildList .claim_convictionC{background-repeat:no-repeat;  background-attachment:scroll;  background-position:50% bottom;}
+.formSection li.hasChildList .formInputs li{background-repeat:no-repeat;  background-attachment:scroll; background-position:50% top;}
+.formSection li.hasChildList ul.formInputs, .formSection .formInputs li.hasChildList{background:0;}
+.formSection .formInputs li.hasChildList.first{margin-top:6px;}
+.formSection .formInputs li.hasChildList{margin-bottom:-1px;}
+li.hasChildList .claim_conviction h4{padding:10px 38px 15px 38px; height:0.5em; width:auto; font-weight:normal; font-size:1.3em;}
+li.hasChildList .claim_conviction h4 span, li.ajaxInsert h3 span, .wHeading h3 span{float:left;}
+.MT li.hasChildList .claim_conviction h4 span{font-weight:bold;}
+li.hasChildList .claim_conviction h4 span.button-remove input, li.ajaxInsert h3 span.button-remove input, .wHeading h3 span.button-remove input
+.button-add-another-container span input, .button-add input
+{padding-right:15px; background-repeat:no-repeat; background-attachment:scroll; background-position:right -155px; }
+li.hasChildList .claim_conviction h4 span.button-remove input, li.ajaxInsert h3 span.button-remove input,
+span.hideShow  input
+	{border:0; text-decoration:underline; float:left; cursor:pointer; height:18px; text-align:right; margin-right:8px; padding-right:22px;}
+li.ajaxInsert .formSection h3 {font-size:1.5em;}
+
+.formSection .button-add-another-container span input, .button-add input {font-size:0.7em; height:17px; background-position:100% -135px; background-repeat:no-repeat;}
+.button-add input{font-size:9pt !important; margin-left:20px; padding-bottom:2px;}
+h3 span.hideShow input, h3 span.button-remove input{font-size:0.55em;}
+h4 .button-add-another-container span input,
+h4 span.hideShow input,
+h4 span.button-remove input{font-size:0.7em;}
+
+.claim_conviction h4 span.button-remove, .claim_conviction span.hideShow{margin-top:-3px;}
+
+
+li.hasChildList .claim_conviction h4 span.button-remove input:hover,
+li.hasChildList .claim_conviction h4 span.button-remove input:focus,
+li.hasChildList .claim_conviction h4 span.button-remove input.focus,
+li.ajaxInsert h3 span.button-remove input:hover,
+li.ajaxInsert h3 span.button-remove input:focus,
+li.ajaxInsert h3 span.button-remove input.focus,
+
+.button-add-another-container span input:hover,
+.button-add-another-container span input:focus,
+.button-add-another-container span input.focus,
+span.hideShow input:hover,
+span.hideShow input:focus,
+span.hideShow input.focus
+	{text-decoration:none;}
+
+
+li.ajaxInsert h3
+	{margin-bottom:20px;}
+
+.JSOFF #block2 span.hideShow{display:none;}
+#block2 span.hideShow{ float:right; }
+
+span.hideShow{margin-right:-16px;}
+span.hideShow input{background-repeat:no-repeat; background-attachment:scroll; background-position:100% -110px; text-align:right; padding-right:22px;}
+span.shown input{background-position:100% -89px;}
+
+/* highlight/error logic */
+/* form elements highlight */
+li.hasChildList .formInputs li.highlight{background-repeat:no-repeat; background-position:0 bottom; }
+li.hasChildList .highlight .formElTop{background-repeat:no-repeat; background-position:0 0; background-repeat:no-repeat;}
+li.hasChildList .helpMessage .helpTop {width:544px;}
+/* form elements error */
+li.hasChildList .formInputs li.error{background-repeat:no-repeat; background-position:0 bottom;}
+li.hasChildList .error .formElTop{background-repeat:no-repeat; left:0px; background-position:0 0;}
+li.hasChildList .errorMessage .errorTop{width:544px;}
+li.hasChildList .formInputs li .leftCol, li.hasChildList .formInputs li .rightCol{width:221px;}
+li.hasChildList .formInputs li .helpIcon{width:51px;}
+
+.button-add-another-container{text-align:right; height:20px; padding:10px 22px; margin-right:1px;}
+.button-add-another-container span{float:right; background-position:right -135px;}
+.button-add-another-container span input, .button-add input{border:0; text-decoration:underline; float:right; cursor:pointer; text-align:right; margin-right:8px; padding-right:22px; font-size:0.9em;}
+
+.extraSliderPadding{margin-top:22px;}
+
+/* CSS classes Styles for changeEmail.jsp */
+.changeEmailAlign{height: 3px; padding-top: 1px;}
+.changeEmailAlignInput{height: 21px; padding-top: 5px;}
+.changeEmailAlignInput2{height: 21px; padding-top: 2px;}
+
+.formSectionLast .submit-buttons{padding-top:14px;}
+#MTAcustomiseContainer .option_container .price{margin-left:5px;}

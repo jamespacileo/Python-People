@@ -1,0 +1,614 @@
+/*RSA Stylesheet */
+
+
+
+.formSection .button-add-another-container span input, .button-add input {font-size:0.7em; height:17px; background-position:100% -135px; background-repeat:no-repeat;}
+.button-add input{font-size:9pt !important; margin-left:20px; padding-bottom:2px;}
+h3 span.hideShow input, h3 span.button-remove input{font-size:0.55em;}
+h4 .button-add-another-container span input,
+h4 span.hideShow input,
+h4 span.button-remove input{font-size:0.7em;}
+
+.claim_conviction h4 span.button-remove, .claim_conviction span.hideShow{margin-top:-3px;}
+
+
+li.hasChildList .claim_conviction h4 span.button-remove input:hover,
+li.hasChildList .claim_conviction h4 span.button-remove input:focus,
+li.hasChildList .claim_conviction h4 span.button-remove input.focus,
+li.ajaxInsert h3 span.button-remove input:hover,
+li.ajaxInsert h3 span.button-remove input:focus,
+li.ajaxInsert h3 span.button-remove input.focus,
+
+.button-add-another-container span input:hover,
+.button-add-another-container span input:focus,
+.button-add-another-container span input.focus,
+span.hideShow input:hover,
+span.hideShow input:focus,
+span.hideShow input.focus
+	{text-decoration:none;}
+
+
+li.ajaxInsert h3
+	{margin-bottom:20px;}
+
+.JSOFF #block2 span.hideShow{display:none;}
+#block2 span.hideShow{ float:right; }
+
+span.hideShow{margin-right:-16px;}
+span.hideShow input{background-repeat:no-repeat; background-attachment:scroll; background-position:100% -110px; text-align:right; padding-right:22px;}
+span.shown input{background-position:100% -89px;}
+
+/* highlight/error logic */
+/* form elements highlight */
+li.hasChildList .formInputs li.highlight{background-repeat:no-repeat; background-position:0 bottom; }
+li.hasChildList .highlight .formElTop{background-repeat:no-repeat; background-position:0 0; background-repeat:no-repeat;}
+li.hasChildList .helpMessage .helpTop {width:544px;}
+/* form elements error */
+li.hasChildList .formInputs li.error{background-repeat:no-repeat; background-position:0 bottom;}
+li.hasChildList .error .formElTop{background-repeat:no-repeat; left:0px; background-position:0 0;}
+li.hasChildList .errorMessage .errorTop{width:544px;}
+li.hasChildList .formInputs li .leftCol, li.hasChildList .formInputs li .rightCol{width:221px;}
+li.hasChildList .formInputs li .helpIcon{width:51px;}
+
+.button-add-another-container{text-align:right; height:20px; padding:10px 22px; margin-right:1px;}
+.button-add-another-container span{float:right; background-position:right -135px;}
+.button-add-another-container span input, .button-add input{border:0; text-decoration:underline; float:right; cursor:pointer; text-align:right; margin-right:8px; padding-right:22px; font-size:0.9em;}
+
+.extraSliderPadding{margin-top:22px;}
+
+/* incorporated Excess Slider styles */
+	div.slider{margin:20px 40px; height:50px; padding:4px 0 0 0; width: 290px}
+	.excessMin {display: block; float: left; margin: 4px 10px 0 0; font-size: 1em;}
+	.excessMax {display: block; float: left; margin: 4px 0 0 10px; font-size: 1em;}
+	.ui-widget-content {background-position:50% 0; background-repeat:no-repeat; padding:0; width:221px; float: left; cursor:e-resize;} /* Main css of slider */
+	.ui-slider {position:relative; text-align:left; overflow:visible;}
+	.ui-slider .ui-slider-handle {position:absolute; z-index:2; width:22px; height:22px; cursor:default; background-position:2px 4px; background-repeat:no-repeat; border:0}
+	.ui-slider .ui-slider-range {position:absolute; z-index:1; font-size:.7em; display:block; border:0;}
+	.ui-slider-horizontal {height:17px; margin-top:3px; width:221px;} /* slider container */
+	.renewal .ui-slider-horizontal{width:137px;}
+	.ui-slider-horizontal .ui-slider-handle {top:-.3em; margin-left:-.6em; cursor:e-resize;}
+	.ui-slider-horizontal .ui-slider-range {top:0; height:100%;}
+	.ui-slider-horizontal .ui-slider-range-min {left:0;}
+	.ui-slider-horizontal .ui-slider-range-max {right:0;}
+	.ui-slider .ui-slider-handle {overflow:visible !important;}
+
+	/* Tooltip styles */
+	.ui-slider .ui-slider-tooltip, .renewal .ui-slider .ui-slider-tooltip {display:block; position:absolute; bottom:22px; text-align:center; font-weight:bold; padding:.3em .2em .4em; font-size:1.1em; width:8em; margin-left:-3.7em; border:0; background:0;}
+	.safari .ui-slider .ui-slider-tooltip{bottom:24px;}
+	span.ttContent{font-size:1.2em;}
+
+	.highlight .ui-slider-tooltip {background-repeat:no-repeat !important; background-position:0 0 !important;}
+
+	.ui-slider .screenReaderContext {position:absolute; width:0; height:0; overflow:hidden; left:-999999999px;}
+	.ui-state-focus {background-position:2px 4px !important; background-repeat:no-repeat!important;}
+	.ttContent {display:block !important; background:0;}
+	.ui-slider, .ui-slider a {text-decoration:none !important;}
+	.ui-slider ol, .ui-slider li, .ui-slider dl, .ui-slider dd, .ui-slider dt {list-style:none; margin:0; padding:0;}
+	.ui-slider ol, .ui-slider dl {position:relative; top:0; width:100%;}
+	.ui-slider dt {top:1.5em; position:absolute; padding-top:.2em; text-align:center; border-bottom:1px dotted #ddd; height:.7em;}
+	.ui-slider dt span {padding:0 .5em;}
+	.ui-slider li, .ui-slider dd {position:absolute; overflow:visible;}
+	.ui-slider li span.ui-slider-label-show, .ui-slider dd span.ui-slider-label-show {position:absolute; top:15px; display:block;}
+	.ui-slider li span.ui-widget-content, .ui-slider dd span.ui-widget-content {border:0;}
+	.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down,
+	.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner,
+	.ui-slider span.ui-slider-tic, .slider label, .ui-slider li span.ui-slider-label,
+	.ui-slider dd span.ui-slider-label,
+	.ui-slider .first .ui-slider-tic, .ui-slider .last .ui-slider-tic {display:none;}
+
+#topPremiumPricesPanel{width:530px; clear:left; margin-bottom:20px;}
+.renewal #topPremiumPricesPanel{margin-left:37px;}
+.twoBlocks .formSection #topPremiumPricesPanel table{width:490px; margin-left:38px;}
+.twoBlocks .formSection #topPremiumPricesPanel table td,
+.twoBlocks .formSection #topPremiumPricesPanel table th{border:0; text-align:left; padding:0; width:240px;}
+#topPremiumPricesPanel .value{display:block; font-size:4em; padding:0 10px;}
+#topPremiumPricesPanel .period, #topPremiumPricesPanel .extraInfo{display:block; padding:0 10px;}
+#topPremiumPricesPanel .extraInfo{font-size:0.8em; padding:10px;}
+#topPremiumPricesPanel .value .decimals{font-size:0.8em;}
+#topPremiumPricesPanel .tableLayoutHelper{padding:0 10px;}
+#topPremiumPricesPanel .col1{width:250px !important;}
+
+.renewal #topPremiumPricesPanel .col1{width:258px !important;}
+.renewal #topPremiumPricesPanel .col2{width:240px !important;}
+.renewal #topPremiumPricesPanel .col1 .value, .renewal #topPremiumPricesPanel .col2 .value,
+.renewal #topPremiumPricesPanel .col1 .period, .renewal #topPremiumPricesPanel .col2 .period{font-weight:bold;}
+
+#topAnnualHeader{font-size:1.2em;}
+.annual #topAnnualHeader{font-size:1em;}
+
+#topMonthlyValue, #topAnnualValue{background-repeat:repeat-y; background-position:0 0; vertical-align:top;}
+#topPremiumPricesPanel .annual #topMonthlyHeader,
+#topPremiumPricesPanel #topAnnualHeader{background-repeat:no-repeat; background-position:0 bottom; height:45px; vertical-align:bottom;}
+#topPremiumPricesPanel #topMonthlyValue .tableLayoutHelper,
+#topPremiumPricesPanel #topAnnualValue .tableLayoutHelper{display:block; height:100%; padding:10px 2px;}
+#topPremiumPricesPanel .annual #topMonthlyValue .tableLayoutHelper,
+#topPremiumPricesPanel #topAnnualValue .tableLayoutHelper{background:0;}
+#topPremiumPricesPanel #topMonthlyValue .tableLayoutHelper,
+#topPremiumPricesPanel .annual #topAnnualValue .tableLayoutHelper{background-repeat:no-repeat; background-position:191px 25px;}
+#topPremiumPricesPanel #topMonthlyHeader span, #topPremiumPricesPanel .annual #topAnnualHeader span{display:block; font-size:1.2em; font-weight:bold; padding:15px 14px;}
+#topPremiumPricesPanel .annual #topMonthlyHeader span,
+#topPremiumPricesPanel #topAnnualHeader span{padding:6px 14px; display:block; font-weight:bold;}
+#topPremiumPricesPanel #topMonthlyHeader,
+#topPremiumPricesPanel .annual #topAnnualHeader{background-repeat:no-repeat; background-position:0 bottom; height:45px; vertical-align:bottom;}
+.annual #topMonthlyFooter, #topAnnualFooter{background-repeat:no-repeat; background-position:0 0; height:51px; vertical-align:top;}
+#topMonthlyFooter, .annual #topAnnualFooter{background-repeat:no-repeat; background-position:0 0; height:51px; vertical-align:middle;}
+#topMonthlyFooter input, #topAnnualFooter input{width:215px;}
+
+.twoBlocks .formSection #topPremiumPricesPanel #topMonthlyFooter, .twoBlocks .formSection #topPremiumPricesPanel .annual #topAnnualFooter{vertical-align:middle;}
+.twoBlocks .formSection #topPremiumPricesPanel .annual #topMonthlyFooter{vertical-align:top;}
+
+#topMonthlyFooter .haveChosen, #topAnnualFooter .haveChosen{padding:8px 3px 6px 15px;}
+.annual #topMonthlyFooter .haveChosen, #topAnnualFooter .haveChosen{display:none;}
+#topMonthlyFooter .haveChosen, .annual #topAnnualFooter .haveChosen{display:block; font-size:1.1em;}
+
+table.annual #topMonthlyFooter span.button-04, #topAnnualFooter span.button-04{display:inline-block !important;}
+#topMonthlyFooter span.button-04, table.annual #topAnnualFooter span.button-04{font-size:1.1em; display:none !important;}
+
+.aggregatorLogo{float:right; margin-bottom:10px;}
+
+.top{margin-top:20px;}
+.updateContactMethod{margin-bottom:20px;}
+.updateContactMethod .rightCol {padding-left:300px;}
+.updateContactMethod .rightCol div {clear:both;}
+.updateContactMethod .rightCol div div{width:105px; display:inline-block;}
+.updateContactMethod .rightCol div div.onePerLine{width:230px;}
+
+.upto{display:block; text-decoration:none !important; padding-left:40px;}
+
+/* BT STUFF */
+.btInnerContent{text-align:left;}
+.btScroll{overflow:auto; height:180px; border-top:30px solid; margin-right:-8px; padding:5px 10px;}
+.btHeader{background-attachment:scroll !important; background-position:0 0 !important; background-repeat:no-repeat !important; font-size:2em !important; height:24px !important; left:0 !important; padding:14px 50px 2px 18px !important; position:absolute !important; top:0 !important; width:432px !important;}
+.btClose{height:16px; position:absolute; right:12px; top:15px; width:17px;}
+.btClose span{position:absolute; top:-5000em;}
+.btScroll p{padding:0 !important;}
+.btScroll h3{border-bottom:1px solid !important; font-size:1.8em !important; padding:12px 0 7px 0 !important; margin:5px 0 10px 0 !important; }
+.btScroll h4{font-size:1.2em !important; padding:20px 0 8px 0 !important;}
+
+/* TOP HELP LINKS */
+#topHelpLinks{position:absolute; top:0; left:470px; width:230px; background-repeat:no-repeat; background-position:0 0;}
+#topHelpLinks h2{float:left; display:block; width:110px; height:31px; cursor:pointer;}
+#topHelpLinks li{float:left; display:block; width:40px; height:31px; position:relative;}
+#topHelpLinks li a{display:block; width:40px; height:31px; overflow:hidden; background-repeat:no-repeat; background-attachment:scroll;}
+
+#topHelpLinks li.on{background-position:0 -31px;}
+
+#topHelpLinks #help_mail a{background-position:0 0;}
+#topHelpLinks #help_phone a{background-position:-40px 0;}
+#topHelpLinks #help_chat a{background-position:-80px 0;}
+
+#topHelpLinks #help_mail.on a, #topHelpLinks #help_mail.on a.focus{background-position:0 -31px;}
+#topHelpLinks #help_phone.on a, #topHelpLinks #help_phone.on a.focus{background-position:-40px -31px;}
+#topHelpLinks #help_chat.on a, #topHelpLinks #help_chat.on a.focus{background-position:-80px -31px;}
+
+#topHelpLinks span{position:absolute; top:-1000px;}
+#topHelpLinks li .bt-wrapper{margin-left:80px;}
+#topHelpLinks li .bt-wrapper a{display:inline; width:auto; height:auto; overflow:visible;}
+
+h3.driver{padding-top:15px;}
+p.driver{padding-top:3px;}
+
+
+.btScroll .confirmRemove img{float:left;}
+.btScroll .confirmRemove .message{float:left; font-size:1.1em; width:320px; padding:10px 0 10px 10px;}
+.btScroll .confirmRemove .message p{padding-bottom:10px !important;}
+.btScroll .confirmRemove .message em{font-style:normal; font-weight:bold;}
+.btScroll .confirmRemove .buttons{clear:left; margin-top:-10px;}
+.btScroll .confirmRemove .buttons .button-06{margin:9px 10px 0 4px;}
+.btScroll .confirmRemove .buttons .button-07{margin:-4px 10px 0 6px; float:right;}
+
+
+/* TOP NAV BT */
+.btTopNavContainer{}
+
+#tableInstructions{padding:0 36px;}
+#customise #tableInstructions{padding:19px 10px 0 10px;}
+#customise #tableInstructions p, #callCentreOptions p{font-size:1.2em;}
+
+.submit-buttons span input{font-size:13px !important;}
+
+span.button-01b input, span.button-01c input, span.button-01 a, span.button-09 input, span.button-09a input,
+span.button-04 input, span.button_04 input,
+span.button-05 input,
+span.button-06 input, span.button-06c input,
+span.button-06a input, span.button-06, span.button-06c, span.button-06a,
+span.button-06b input,
+span.button-07 input,
+span.button-08 input,
+span.button-10 input,
+span.button-11a,
+span.button-11b,
+span.button-11a input,
+span.button-11b input,
+span.button-11a input,
+span.button-11b input,
+.buttons input {font-size:11px !important;}
+
+span.button-01 input, span.button-12 input, span.button-07 input{font-size:14px !important; font-weight:bold;}
+span.button-02 input, span.button-01 input, span.button-01b input, span.button-01c input, span.button-01 a, span.button-09 input, span.button-09a input{font-size:18px !important; font-weight:bold;}
+span.button-06 input, span.button-06a input, span.button-06c input{font-weight:bold;}
+
+.intro{padding-bottom:15px;}
+
+.renewal .grey-panel-4 .clearFloat{padding-top:12px;}
+#addOnBundles .clearFloat{padding-top:0;}
+.renewal .grey-panel-4 p{padding:19px 33px 0;}
+.panel-3b .panel-3B {padding-bottom:20px;}
+.panel-3b .panel-3B p{padding:16px 12px 0;}
+#priceSummaryBreakdown .panel-3B{padding-bottom:4px;}
+
+.renewal #addressLookup .textfield.med {width:90px;}
+#block3 .promo .wrapperB{background-position:0 100%; background-attachment:scroll; background-repeat:no-repeat;}
+#block3 .promo .wrapperB p{font-size:1.25em; padding:0 0 10px 0;}
+#block3 .promo .wrapperB p.sml{font-size:1em;}
+
+/** IFRAME SPECIFIC **/
+	#main.iframe{margin:0 -10px;}
+	#main.iframe .twoBlocks #block2{background:transparent;}
+	.iframe #pageContent{background:0 none; padding:0 0 0 10px;}
+	.iframe .twoBlocks #block2 .wrapperB{padding-bottom:14px; padding-top:0px;}
+
+	.opera.INFRAME #block2{margin-bottom:-20px;}
+	.INFRAME #topHelpLinks{display:none;}
+	.NOFRAME #topHelpLinks{display:block;}
+	.NOFRAME .iframe .twoBlocks #block2 .wrapperB{padding-top:40px;}
+	.JSOFF .iframe .twoBlocks #block2 .wrapperB{padding-top:0; padding-bottom:1px !important;}
+
+	.iframe .quote_values.directDebit{padding-bottom:8px; width:670px;}
+	.iframe .quote_values.directDebit th{font-size:1.1em;}
+	.iframe .quote_values.directDebit th, .iframe .quote_values.directDebit td{width:125px;}
+	.iframe .quote_values.directDebit th.initial, .iframe .quote_values.directDebit td.initial{width:150px}
+	.iframe .quote_values.directDebit th.oneOff, .iframe .quote_values.directDebit td.oneOff{width:160px;}
+	.iframe .quote_values.directDebit th.period, .iframe .quote_values.directDebit td.period{width:160px;}
+	.iframe .quote_values.directDebit td.total{font-size:2.5em;}
+	.iframe .quote_values.directDebit p.currency{padding-right:3px;}
+	.iframe .quote_values.directDebit span.period{font-size:0.45em; line-height:1em; display:block; width:125px;}
+	.iframe p.apr_data{width:430px;}
+	.iframe .apr_data em{font-weight:bold; font-style:normal;}
+
+	.iframe .panel-725-submit .button-02{margin-top:0; width:186px;}
+	.iframe .panel-725-submit .button-02 input{width:182px; padding:0px 45px 0px 5px; letter-spacing:-0.05em;}
+
+.NOFRAME #main{width:770px;}
+.NOFRAME #main, .NOFRAME #content, .NOFRAME #pageContent, .NOFRAME #block2, .NOFRAME .wrapperB{height:100%; margin-bottom:0 !important; padding-bottom:0 !important;}
+.NOFRAME #main{height:99.5%;}
+
+.JSOFF.NOFRAME #block2 {height:auto;}
+
+
+/** SAFARI AND CHROME CSS SPECIFIC */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.cancelCustomise input, .cancelCustomiseHighlight input{width:225px;}
+	span.button-04 input, span.button_04 input{padding-bottom:1px;}
+	#topMonthlyFooter .haveChosen, .annual #topAnnualFooter .haveChosen{margin-top:13px;}
+}
+
+/** OPERA CSS SPECIFIC */
+.opera #block1 .mta-left ul.policies li .wrapperB input.vehicle{padding-left:12px;}
+
+ul.nobg {background:none !important;}
+#under25Message{clear:left;}
+
+/* IFRAME - NOT NETBANX */
+#ga-iframe, #ga-iframe iframe {line-height:1px !important; height:1px !important; width:1px !important; padding:0 !important; margin:0 !important; border:0 !important;}
+
+/* PAYMENT LINKS */
+.twoBlocks #block2 .panelForm .infoLinks * {background:transparent !important; height:inherit; width:inherit;}
+.twoBlocks #block2 .panelForm .infoLinks h2 {display:none;}
+.twoBlocks #block2 .panelForm .infoLinks .wrapper1 {margin-left:20px;}
+.twoBlocks #block2 .panelForm .scrollBox2 .infoLinks ul.list {margin-left:0;}
+.twoBlocks #block2 .panelForm .infoLinks ul.list {width:650px; margin-left:24px;}
+.twoBlocks #block2 .panelForm .infoLinks ul.list li a {font-size:0.9em;}
+.twoBlocks #block2 .panelForm .infoLinks li {float:left; width:20em; margin:0; padding:0;}
+.JSOFF .grey-panel .formInputs li.agreement {padding-bottom:10px;}
+
+/* BT STUFF */
+.btInnerContent{text-align:left;}
+.btScroll{overflow:auto; height:180px; border-top:30px solid; margin-right:-8px; padding:5px 10px;}
+.btHeader{background-attachment:scroll !important; background-position:0 0 !important; background-repeat:no-repeat !important; font-size:2em !important; height:24px !important; left:0 !important; padding:14px 50px 2px 18px !important; position:absolute !important; top:0 !important; width:432px !important;}
+.btClose{height:16px; position:absolute; right:12px; top:15px; width:17px;}
+.btClose span{position:absolute; top:-5000em;}
+.btScroll p{padding:0 !important;}
+.btScroll h3{border-bottom:1px solid !important; font-size:1.8em !important; padding:12px 0 7px 0 !important; margin:5px 0 10px 0 !important; }
+.btScroll h4{font-size:1.2em !important; padding:20px 0 8px 0 !important;}
+.loadingHeader{font-size:1.6em; padding:10px; font-weight:bold;}
+.loadingContent{padding:0 10px 10px;}
+.loadingContent p{padding:10px 0; font-size:1.2em;}
+.btLoadingContent{height:200px}
+
+
+
+/* CR */
+.brandPanelInner{background-position:0 100%; background-repeat:no-repeat; background-attachment:scroll; height:136px;}
+#customiseBundleOuter p.info{margin:10px 21px 20px; font-size:1.2em;}
+#customiseBundle_a #selected_options .option_container .option a, #customiseBundle_a #unselected_options .option_container .option a{margin-left:-10px; padding-top:6px;}
+#customiseBundle_a .option_container .price{font-size:1.2em !important;}
+#customiseBundle_a .option_container .price .period{font-weight:normal;}
+#customiseBundle_a #selected_options li .option_container .button a{padding-left:26px;}
+#customiseBundle_a .option_container .option a{height:18px;}
+.layout_annual .option_container .price .period{display:inline;}
+.layout_annual .option_container .price {width:auto;}
+.layout_annual .option_container .option, .layout_annual .option_container .option a{width:138px;}
+.layout_annual .option_container .option_container .option {width:110px;}
+.layout_annual #unselected_options .option_container .option_container .option {width:101px;}
+.layout_annual .option_container .price span.equivalent {display:block; font-weight:normal; font-size:0.7em !important; text-align:right;}
+.layout_annual .option_container .price span.equivalent em{font-weight:bold; font-style:normal;}
+#customiseBundle_a p.equivalent{margin:0 20px;}
+#customiseBundle_a #selected_options li .option_container .button{display:block !important;}
+#customiseBundle_a #selected_options li .option_container .option_container .button a{padding-left:13px;}
+.layout_annual .option_container .option_container .option{margin-left:-14px;}
+#boxedQuestions .required-fields{float:left;}
+
+#customiseBundle .addOns_btScroll p, #customiseBundle_a .addOns_btScroll p{margin:0; clear:none;}
+
+#priceSummaryBreakdown .panel-3B .apr_help {font-weight:normal; font-size:0.85em; clear:both; width:auto;}
+a.apr_help_bt{font-size:0.8em; font-weight:normal; margin-left:67px; }
+
+#mtaSummaryForm .panel-3B p{font-size:1.1em;}
+
+.JSOFF #customiseBundle p {font-size:1.1em; padding:0 20px 20px;}
+#customise p{font-size:1.05em; clear:both; padding:20px 20px 0 20px;}
+#customise table tr .choose{width:35px; text-align:center; padding:0 0 20px 0}
+#customise table tr.h3 th.first {padding-left:12px;}
+#customise table tr td{background-repeat:repeat-x; background-position:0 100%; background-attachment:scroll; background-color:transparent;}
+#customise table tr td.first{background-repeat:no-repeat;}
+#customise table tr td.last{background-repeat:no-repeat; background-position:100% 100%;}
+#customise table tr td.price select {display:block;}
+#customise table tr.chosen td.first{background-repeat:no-repeat; background-color:transparent;}
+#customise table tr.chosen td.last{background-repeat:no-repeat; background-color:transparent;}
+#customise table tr.last td{background-image:none;}
+#customise table p, .JSOFF #customise table p {font-size:0.85em; font-weight:normal; display:inline; padding:0;}
+#customise table .price label {padding:0;}
+#customise table .price div.equivalent {padding-bottom:10px;}
+#customise table .price div.equivalent p {margin:0;}
+#customise table .price select {margin-top:5px;}
+#customise table .total p {font-size:1.2em; padding:10px; display:block;}
+#customise table .total div.total {text-align:right; padding-top:5px;}
+#customise table .total div.total p {font-size:1.4em; font-weight:bold; display:inline-block;}
+#customise table .total p.equivalent {font-size:1em; display:block;}
+#customise table .total div.total span.total {border-bottom:2px solid; border-top:2px solid; display:inline-block; font-size:1.4em; font-weight:bold; margin-right:10px; padding:10px 0;}
+#customise table .total div.total span.equivalent {display:block; padding-left:529px; text-align:center;}
+#customise table .total div.total span.totalOptions {font-size:1.5em; }
+#customise table tr td.price select#yourQuoteCustomiseNWA_M7Level{width:470px;}
+.JSOFF #customiseBundle p, .JSOFF #customiseBundle_a p {margin:0;}
+
+#customise p.equivalent{padding:0;}
+
+.addOns_btInnerContent{position:relative;}
+.addOns_btScroll{margin-right:-8px; overflow:auto; padding:5px 10px; position:relative;}
+.addOns_btScroll p{padding:0 !important; font-size:1em !important;}
+#main #upSellOverlay .addOns_btScroll p{padding:0 !important;}
+.addOns_btScroll img{float:right; margin-left:10px;}
+.addOns_btClose{width:19px; height:17px; background-repeat:no-repeat; background-position:0 0; background-attachment:scroll; display:block; position:absolute; right:-12px; top:-17px; text-decoration:none;}
+.addOns_btClose span{visibility:hidden;}
+.opera .addOns_btScroll p{margin:-5px; padding: 0px; width: 180px; line-height: 1.5em; overflow:hidden;}
+
+#addOnBundles{margin-bottom:20px;}
+#addOnBundles #packages h4{text-align:center; padding:8px 0 3px;}
+#addOnBundles #packages .on h4{text-align:center; padding-top:16px;}
+#addOnBundles #packages .packageD .href{text-align:center;}
+#addOnBundles #packages .packageD .href input{width:100%;}
+#packages .on .packageC .price-info .span1{display:block;}
+#packages .packageC .price-info{padding-bottom:5px;}
+#packages .packageC .price-info span{display:block; text-align:center; font-weight:bold;}
+#packages .packageC .price-info span.span1{display:none;}
+#packages .packageC .price-info span.period{padding-bottom:4px;}
+#packages .packageC .price-info span.equivalent{font-weight:normal;}
+#packages .packageC label{width:171px; height:35px; background-position:0 0; background-attachment:scroll; background-repeat:no-repeat;}
+#packages .on .packageC label{display:none;}
+#packages .packageC label span{text-indent:-5000px;}
+#packages .on .packageC .price-info{background-image:none; padding-bottom:9px;}
+.twoBlocks .grey-panel p.equivalent{padding-top:20px; padding-bottom:2px; display:block; clear:both;}
+.twoBlocks .grey-panel p.equivalent .switchPrices input{display:inline; float:none; padding:0;}
+#packages .packageC .price-info span.equivalent em, #upSellOverlay .wrapperOverlayB .this_price span.equivalent em{font-style:normal; font-weight:bold;}
+.twoBlocks #addOnBundles.grey-panel h3 {margin-bottom:10px;}
+.JSOFF #packages .packageA{height:265px;}
+
+#packages .on .packageA ul li{background-repeat:no-repeat; background-position:100% 0; background-attachment:scroll; padding-right:25px;}
+.packageA li a.focus, .packageA li a:hover, .packageA li a:focus{text-decoration:none;}
+
+#upSellOverlay{width:570px;}
+#upSellOverlay.overlay{left:20% !important; top:800px!important; -moz-box-shadow:0 0 50px #000000; -webkit-box-shadow:0 0 50px #000000; box-shadow:0 0 50px #000000;}
+#upSellOverlay .wrapperOverlay{width:570px;}
+#upSellOverlay .wrapperOverlayA{width:570px; height:43px; background-position:0 0; background-repeat:no-repeat; background-attachment:scroll;}
+#upSellOverlay .wrapperOverlayA h2{float:none; font-size:1.8em; font-weight:normal; padding:10px 0 0 17px; width:570px;}
+#upSellOverlay .wrapperOverlayB h3{float:none; font-size:1.85em; font-weight:normal; margin-left:-20px; padding-left:20px; background-position:0 100%; background-attachment:scroll; background-repeat:no-repeat; border-bottom:0 none !important;}
+#upSellOverlay .wrapperOverlayB{width:570px; background-position:0 0; background-repeat:repeat-y; background-attachment:scroll;}
+#upSellOverlay .wrapperOverlayC{width:570px; height:10px; overflow:hidden;background-position:0 0; background-repeat:no-repeat; background-attachment:scroll;}
+#upSellOverlay .wrapperOverlayContent{width:570px; }
+#upSellOverlay .button-02{margin:0 20px 11px 0; width:160px;}
+#upSellOverlay .button-02 input{width:156px;}
+#upSellOverlay .hr p.equivalent{width:360px; float:left; padding:23px 0 0 20px !important; font-size:1em;}
+#upSellOverlay .wrapperOverlayB .item{position:relative; background-position:50% 100%; background-repeat:no-repeat; background-attachment:scroll; padding:20px 20px 20px 2px; overflow:auto;}
+#upSellOverlay .wrapperOverlayB .item p{width:250px; padding:14px 0 0 0 !important;}
+#upSellOverlay .hr{padding-top:10px;}
+
+#upSellOverlay .item .info{float:left; padding-left:118px; width:270px;}
+#upSellOverlay.breakdownCover .item {overflow:visible;}
+#upSellOverlay.breakdownCover .item .info{width:auto;}
+#upSellOverlay.breakdownCover .wrapperOverlayB .item p{width:auto; padding-bottom:20px;}
+#upSellOverlay.breakdownCover .select_these{clear:both;}
+
+#upSellOverlay.breakdownCover a span{text-decoration:underline;}
+#upSellOverlay.breakdownCover a.focus span, #upSellOverlay.breakdownCover a:hover span{text-decoration:none;}
+
+#upSellOverlay.breakdownCover #breakdownCover-options {width:528px; margin:10px 20px 0;}
+#upSellOverlay.breakdownCover #breakdownCover-options td{width:75px; background-position:-176px 100%; background-attachment:scroll; background-repeat:repeat-x; padding-left:22px; text-align:center; vertical-align:middle;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.last td{background-position:-176px 0;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices td{background-image:none;}
+#upSellOverlay.breakdownCover #breakdownCover-options td.includes{width:176px; background-position:0 100%; padding:10px 0; text-align:left;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.last td.includes{background-position:0 0;}
+#upSellOverlay.breakdownCover #breakdownCover-options th.option{width:75px; padding-left:22px; vertical-align:bottom;}
+#upSellOverlay.breakdownCover #breakdownCover-options th.option span{width:75px; height:17px; padding-top:15px; display:block; text-align:center; font-weight:bold;}
+#upSellOverlay.breakdownCover #breakdownCover-options th.on span{background-position:-75px 0; padding-top:10px; height:22px;}
+#upSellOverlay.breakdownCover .wrapperOverlayB .item{background-image:none;}
+#upSellOverlay.breakdownCover .add_remove{width:75px; height:34px; display:block;}
+#upSellOverlay.breakdownCover .add_remove span{position:absolute; top:-5000px;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices span{display:block; background-position:-198px 0; background-repeat:no-repeat; background-attachment:scroll;}
+#upSellOverlay.breakdownCover .add_remove{background-position:0 100% !important;}
+#upSellOverlay.breakdownCover .on a.add_remove{background-position:-75px 100% !important;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices .on a span{position:static; background-image:none; padding-top:10px;}
+#upSellOverlay.breakdownCover #breakdownCover-options .included, #upSellOverlay.breakdownCover #breakdownCover-options .not_included{width:auto; height:20px; background-repeat:no-repeat; background-position:50% 50%; background-attachment:scroll;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices div{background-repeat:no-repeat;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices .on div{background-position:-75px 0;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices span.price{font-size:1.5em !important; font-weight:bold; padding-top:6px;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices span.period{font-weight:bold;}
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices span.equivalent{padding-top:6px; padding-bottom:3px;}
+#upSellOverlay.breakdownCover .equivalent em{font-weight:bold; font-style:normal;}
+
+#upSellOverlay .select_this{width:160px; float:left;}
+#upSellOverlay .select_this .this_price{width:160px; background-position:0 0; background-attachment:scroll; background-repeat:no-repeat;}
+#upSellOverlay .select_this .this_price span{display:block; text-align:center; width:160px;}
+#upSellOverlay .select_this .this_price span.price{font-weight:bold; padding:10px 0 0 0;}
+ #upSellOverlay .select_this .this_price span.period{font-weight:bold; padding:0 0 5px;}
+ #upSellOverlay .select_this .this_price span.equivalent{padding:0 0 10px;}
+#upSellOverlay .this_price label{background-position:0 0; background-attachment:scroll; background-repeat:no-repeat;}
+#upSellOverlay .select_this .this_price label{display:block; width:160px; height:34px; cursor:pointer;}
+#upSellOverlay .select_this .this_price label span{position:absolute; top:-10000px;}
+
+#upSellOverlay .selected .this_price label span{position:static; padding-top:18px; text-decoration:underline;}
+#upSellOverlay .selected .this_price span.price, #upSellOverlay .selected .this_price span.period, #upSellOverlay .selected .this_price span.equivalent
+	{width:120px;}
+
+
+#upSellOverlay .view_excess{position:absolute; left:25px; bottom:10px;}
+#upSellOverlay .view_excess .data{position:absolute; bottom:0;}
+#upSellOverlay .view_excess .inner{width:81px; height:23px; background-position:81px 0; background-repeat:no-repeat; background-attachment:scroll;}
+#upSellOverlay .view_excess .open{width:auto; height:23px; background-position:81px 100%; background-repeat:no-repeat; background-attachment:scroll; position:absolute; bottom:0;}
+#upSellOverlay .view_excess a{white-space:nowrap;}
+
+#upSellOverlay .view_excess .inner .data{display:none; margin-bottom:8px; margin-left:85px;}
+#upSellOverlay .view_excess .open .data{display:block;}
+#upSellOverlay .view_excess .inner_a{width:281px; height:6px; background-position:0 0; background-repeat:no-repeat;}
+#upSellOverlay .view_excess .inner_b{width:281px; background-position:0 100%; background-repeat:no-repeat;}
+#upSellOverlay .view_excess .inner_b p{padding:0 10px 10px !important; font-size:1em;}
+
+.JSOFF #customise td.total .button-04{float:right; margin:20px 4px 0;}
+.JSOFF #customise td.total .button-04 input{width:135px;}
+.JSOFF #customise table tr td.option{width:158px;}
+.JSOFF .equivalent, .JSOFF .twoBlocks .grey-panel p.equivalent{display:none !important;}
+img.loading{margin:0 0 20px 243px;}
+.waitingoverlay{text-align:center;}
+
+/* CR314 */
+#registrationOverlayContainer .leftCol {width:143px;}
+#registrationOverlayContainer .rightCol {width:323px;}
+#registrationOverlayContainer input.lrg {width:321px;}
+#registrationOverlayContainer select.lrg {width:322px;}
+span.ajax{background-attachment:scroll; background-position:-22px 0; background-repeat:no-repeat; color:transparent; height:22px; left:100%; position:absolute; text-indent:-5000px; top:0; width:22px;}
+li.error span.ajax {background-position:0 0;}
+li.highlight span.ajax {background-position:0 0;}
+li.error span.ajax {background-position:-44px 0;}
+li.hasChildList .button-remove span.ajax{background-position:-22px 0;}
+li h3 .button-remove span.ajax{background-position:0 0;}
+
+/* CR388 */
+#renewalPriceReadonly{margin-bottom:0; padding-bottom:20px; padding-top:20px;}
+#renewalPriceReadonly .panel-3B{padding-bottom:5px;}
+#renewalPriceReadonly table{font-size:0.8em; width:475px; margin:10px 12px 0;}
+#renewalPriceReadonly table th{white-space:nowrap;}
+#renewalPriceReadonly p.apr_data{float:left; width:300px; padding:0 12px; font-size:0.85em;}
+#renewalPriceReadonly p.renewText{padding:10px 12px 0; clear:both;}
+#renewalPriceReadonly .buttons{float:right; padding-top:0; margin-top:5px; margin-right:15px; clear:none;}
+.formInputs li.last{margin-bottom:-1px;}
+
+.addOns_bt_popup{position:absolute;}
+
+.addOns_bt_popup_Content, .addOns_bt_popup_Heading, .addOns_bt_popup_Spike, .addOns_bt_popup_Heading h2 .icon
+	{background-color:transparent; background-position:0 0; background-repeat:no-repeat; background-attachment:scroll;}
+
+.addOns_bt_popup_Heading{height:30px; padding:11px 50px 2px 18px; width:451px;}
+.addOns_bt_popup_Heading h2{font-size:2em !important; height:24px !important; padding:0px 50px 2px 30px !important; text-align:left;}
+.addOns_bt_popup_Heading .close{cursor:pointer; display:block; height:23px; left:475px; overflow:hidden; position:absolute; width:23px; top:10px; text-indent:-5000px}
+.addOns_bt_popup_Heading h2 .icon{background-position:50% 50%; display:block; height:30px; left:15px; position:absolute; top:7px; width:30px;}
+.addOns_bt_popup_Content{width:520px !important; overflow:auto; background-repeat:repeat-y;}
+.addOns_bt_popup_Content img{float:right; margin:10px 0 10px;}
+.addOns_bt_popup_Content p{text-align:left; padding:20px 0;}
+.addOns_bt_popup_Content .addOns{margin:0 30px;}
+.addOns_bt_popup_Spike{height:64px; width:520px !important;}
+
+/* CR1251 */
+.twoBlocks #block2 .scrollBox2 .infoLinks ul.list, .twoBlocks #block2 .scrollBox3 .infoLinks ul.list{width:550px; padding:10px 0 !important; overflow:hidden;}
+.twoBlocks #block2 .scrollBox2 .infoLinks ul.list li, .twoBlocks #block2 .scrollBox3 .infoLinks ul.list li{float:left; width:250px; clear:none;}
+#monthlyPaymentPriceTotal .renewals .button-02,
+#annualPaymentContinuousAuthority #quoteSummaryPricePanel .renewals .button-02
+	{margin-top:0; margin-bottom:0;}
+#annualPaymentContinuousAuthority #quoteSummaryPricePanel .renewals .button-02
+	{margin-top:10px; margin-bottom:0;}
+#annualPaymentContinuousAuthority.refund #quoteSummaryPricePanel .renewals .button-02
+	{margin-top:5px; margin-bottom:0;}
+#monthlyPaymentPriceTotal .renewals .button-02{width:184px;}
+#monthlyPaymentPriceTotal .renewals .button-02 input{font-size:16px; padding:3px; width:180px;}
+
+.directDebit .grey-panel-3 p{width:630px}
+.renewals .directDebit{width:auto;}
+.renewals .directDebit th{font-size:1em;}
+.renewals .directDebit td.total{font-size:2.5em;}
+.renewals .directDebit th.initial, .renewals .directDebit td.initial,
+.renewals .directDebit th.oneOff, .renewals .directDebit td.oneOff
+	{width:95px; padding-right:15px;}
+.renewals .directDebit th.period, .renewals .directDebit td.period
+	{width:140px; padding-right:0;}
+.renewals .directDebit th.period
+	{width:125px; padding-right:15px;}
+.renewals .directDebit th.total, .renewals .directDebit td.total
+	{width:119px; padding-right:0; padding-left:0;}
+.renewals .directDebit span.period{width:50px;}
+
+.panel-725-submit .renewals h2{font-size: 1.5em; font-weight: bold; padding-bottom: 15px;}
+ul.formInputs .extraButton .rightCol{width:405px;}
+ul.formInputs .extraButton .rightCol .button-04{float:right;}
+ul.formInputs .extraButton .rightCol .button-04 input{overflow:visible;}
+ul.formInputs .extraButton .OKIcon, ul.formInputs .extraButton .helpIcon{display:none;}
+ul.formInputs .longQuestion .leftCol{width:520px;}
+ul.formInputs .longQuestion .rightCol{width:75px;}
+
+.infoLinks .wrapper1, .infoLinks .wrapperA, .infoLinks .wrapperB, .infoLinks .wrapperC, .infoLinks .wrapperInner{width:auto!important; margin:0!important;}
+
+.quote_values td span.period, .quote_values div.total span.period{float:left;}
+#cancellationRefundPanel.panelPart{margin-bottom:20px;}
+#block2 .securesite .panel-10B p{padding:5px 12px; font-size:1em;}
+.refund .panel-9B{min-height: 111px;}
+#redirectForm, #proceedForm, #netBanxForm, #dummy3dsForm{width:770px;}
+.panel-9B ul.secureSite img, .panel-10B ul.secureSite img{margin:0 4px;}
+
+
+.JSOFF .mta #customise table th, .JSOFF .renewal #customise table th{background-position:100% 0;}
+.JSOFF .mta #customise table th.first, .JSOFF .renewal #customise table th.first{background-position:0 0;}
+.JSOFF .mta #customise table tr td.option, JSOFF .renewal #customise table tr td.option{width:195px;}
+.JSOFF .mta #customise table p, .JSOFF .renewal #customise table p{display:block; white-space:normal;}
+.JSOFF .mta #customise table td.total .total p, .JSOFF .renewal #customise table td.total .total p{display:inline;}
+.JSOFF .mta #customise table tr td.option-price select, .JSOFF .renewal #customise table tr td.option-price select{font-size:0.9em;}
+.JSOFF .mta #customise table tr td.option-price select#yourQuoteCustomiseNWA_M7Level, .JSOFF .renewal #customise table tr td.option-price select#yourQuoteCustomiseNWA_M7Level{width:auto; margin-bottom:5px;}
+.JSOFF .mta #customise table tr .choose, .JSOFF .renewal #customise table tr .choose {padding: 0 5px 20px 3px;}
+.JSOFF .mta #customise table tr td.price span.subtotal, .JSOFF .renewal #customise table tr td.price span.subtotal{padding:0;}
+.JSOFF .mta #customise table td.option-price a, .JSOFF .renewal #customise table td.option-price a{display:block; font-size:1.2em; margin-left:-8px; padding:9px 0 8px 35px;}
+
+.JSOFF #customise table td.option-price a{background-position:0 1px; background-attachment:scroll; background-repeat:no-repeat;}
+
+.JSOFF #customise table td.option-price .subtotal{font-size:1.2em; font-weight:bold;}
+
+.JSOFF #customise table td.option-price .option-price a{display:inline; font-size:1em; padding:0 0 0 8px;}
+.JSOFF #customise table td.option-price .option-price{padding-left:203px;}
+.JSOFF #customise table td.option-price .option-price p{font-size:1.05em;}
+
+.button-add-another-container span.ajax{top:8px; margin-left:-50px;}
+
+.protectingPanel div div {background-position:100% 0!important; padding-right:80px;}
+.welcome ul{margin-bottom:5px; margin-left:38px; overflow:hidden;}
+.welcome li{background-attachment:scroll; background-position:0 1px; background-repeat:no-repeat; float:left; padding-bottom:7px; padding-left:15px; width:225px;}
+
+.brochure h4 a, .brochure h5 a, .brochure h6 a{color:#5A2D7F; line-height:1.4em;}
+.claimDetailArea h4{padding-left:12px; padding-top:5px;}
+
+#backToQuote .inner{background-attachment:scroll;background-position:0 0;background-repeat:no-repeat;display:block;height:77px;width:200px;}
+#backToQuote a, #backToQuote input
+	{background-attachment:scroll; background-position:-16px -23px; background-repeat:no-repeat; height:38px; left:16px; position:absolute; text-indent:-5000px; top:23px; width:168px; z-index:6000; cursor:pointer;}
+#backToQuote a.close{background-position:0 0; cursor:pointer; height:10px; left:186px; top:4px; width:10px;}
+
+.print .totalOnly table.quote_values{float:right;}
+.print#popupMain .totalOnly table.quote_values, .print#popupMain .totalOnly table.quote_values td.total, .print#popupMain .totalOnly table.quote_values th{width:auto;}
+.print .totalOnly #annualSmallPrintQS{clear:both; overflow: hidden;}
+.print .totalOnly #annualSmallPrintQS p{text-align:right; width:660px}
+
+.helpOn .errorMessage{background-position:50% 0;}
