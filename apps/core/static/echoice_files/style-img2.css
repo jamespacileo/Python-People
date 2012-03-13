@@ -1,0 +1,187 @@
+/*RSA Stylesheet */
+
+
+
+
+#topPremiumPricesPanel #topMonthlyHeader,
+#topPremiumPricesPanel .annual #topAnnualHeader{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/premiumTableTopOn.gif);}
+.annual #topMonthlyFooter, #topAnnualFooter{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/premiumTableBottomOff.gif);}
+#topMonthlyFooter, .annual #topAnnualFooter{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/premiumTableBottomOn.gif);}
+
+
+
+#unselected_options{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-middle.gif);}
+#selected_options{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-middle.gif);}
+.mta #unselected_options, .renewal #unselected_options{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-middle-mta.gif);}
+.mta #selected_options, .renewal #selected_options{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-middle-mta.gif);}
+#unselected_options li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-bottom.gif);}
+.mta #unselected_options li, .renewal #unselected_options li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-bottom-mta.gif);}
+#unselected_options li.multiple{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-multiple-bottom.gif);}
+.mta #unselected_options li.multiple, .renewal #unselected_options li.multiple{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-bottom-mta.gif);}
+#unselected_options li li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-multiple-bottom.gif);}
+#selected_options li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-bottom.gif);}
+.mta #selected_options li, .renewal #selected_options li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-bottom-mta.gif);}
+#selected_options li li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-inner-bottom.gif);}
+
+#unselected_options li .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-top.gif);}
+#unselected_options li.multiple .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-multiple-top.gif);}
+#unselected_options li .option_container .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-multiple-top.gif);}
+#selected_options li .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-top.gif);}
+#selected_options li li .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-inner-top.gif);}
+#unselected_options h2{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-top.gif);}
+#selected_options h2{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-top.gif);}
+#unselected_options .options_bottom{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-bottom.gif);}
+#selected_options .options_bottom{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-bottom.gif);}
+
+.mta #unselected_options li .option_container, .renewal #unselected_options li .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-top-mta.gif);}
+.mta #unselected_options li.multiple .option_container, .renewal #unselected_options li.multiple .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-multiple-top-mta.gif);}
+.mta #unselected_options li .option_container .option_container, .mta #unselected_options li .option_container .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-option-multiple-top-mta.gif);}
+.mta #selected_options li .option_container, .renewal #selected_options li .option_container{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-option-top-mta.gif);}
+.mta #unselected_options h2, .renewal #unselected_options h2{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-top-mta.gif);}
+.mta #selected_options h2, .renewal #selected_options h2{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-top-mta.gif);}
+.mta #unselected_options .options_bottom, .renewal #unselected_options .options_bottom{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/unselected-options-bottom-mta.gif);}
+.mta #selected_options .options_bottom, .renewal #selected_options .options_bottom{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/selected-options-bottom-mta.gif);}
+
+#unselected_options li .option_container .layoutHelper, #unselected_options li.multiple li .option_container .layoutHelper{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/options-select.gif);}
+#selected_options li .option_container .layoutHelper, #selected_options li.multiple li .option_container .layoutHelper{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/options-tick.gif); }
+
+/* BT STUFF */
+.btHeader{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/bt-header-1.gif) !important;}
+
+
+/* incorporated Excess Slider styles */
+.ui-widget-content {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/slider_scale.gif);}
+.renewal .ui-widget-content {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/slider_scale2.gif);}
+.ui-slider .ui-slider-handle {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/slider_handle.gif);}
+.highlight .ui-slider-tooltip {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/slider_tooltip_bg.gif) !important;}
+.ui-state-focus {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/slider_handle_drag.gif) !important;}
+
+/* POLICY MANAGMENT */
+#block1 .mta-left ul.policies li.on .wrapperA, #block1 .mta-left ul.policies li.on:hover .wrapperA, #block1 .mta-left ul.policies li.on:focus .wrapperA{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/pm-policies-top-on.gif);}
+#block1 .mta-left ul.policies li.on .wrapperB ul, #block1 .mta-left ul.policies li.on:hover .wrapperB ul, #block1 .mta-left ul.policies li.on:focus .wrapperB ul{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/pm-policies-mid-on.gif);}
+#block1 .mta-left ul.policies li.on .wrapperC, #block1 .mta-left ul.policies li.on:hover .wrapperC, #block1 .mta-left ul.policies li.on:focus .wrapperC{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/pm-policies-bottom-on.gif);}
+#block1 .mta-left ul.policies li .wrapperB input.on{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/bullet-on.gif);}
+#block1 .mta-left ul.policies .wrapperB input.vehicle{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/pm_icons.gif);}
+#block1 .mta-left ul.policies .wrapperB .renewal{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/pm_icons.gif);}
+#block1 .mta-left .wrapperB li.on input{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/bullet-on.gif);}
+
+#block2 ul.packageoptions li .wrapperA, #callCentreOptions li .wrapperA{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-1.gif);}
+#block2 ul.packageoptions li .wrapperB, #callCentreOptions li .wrapperB{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-2.gif);}
+#block2 ul.packageoptions li .wrapperC, #callCentreOptions li .wrapperC{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-3.gif);}
+.twoBlocks #block2 ul.packageoptions li .wrapperA, .twoBlocks #block2 #callCentreOptions li .wrapperA{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-1.gif);}
+.twoBlocks #block2 ul.packageoptions li .wrapperB, .twoBlocks #block2 #callCentreOptions li .wrapperB{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-2.gif);}
+.twoBlocks #block2 ul.packageoptions li .wrapperC, .twoBlocks #block2 #callCentreOptions li .wrapperC{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/list-item-3.gif);}
+
+#block2 ul.packageoptions li .wrapperB .tick{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/options-tick.gif);}
+#callCentreOptions li .wrapperB .tick{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/call-to-add.gif);}
+
+/* left nav > policies > hover state */
+.moreCoverOptionsButtonContainer input{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/add-item-cta.gif);}
+#block1 .mta-left ul.policies li:hover .wrapperA, #block1 .mta-left ul.policies li:focus .wrapperA, #block1 .mta-left ul.policies li.focus .wrapperA{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/sidebox-top-hl.gif);}
+#block1 .mta-left ul.policies li:hover .wrapperB, #block1 .mta-left ul.policies li:focus .wrapperB, #block1 .mta-left ul.policies li.focus .wrapperB{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/sidebox-middle-hl.gif);}
+#block1 .mta-left ul.policies li:hover .wrapperC, #block1 .mta-left ul.policies li:focus .wrapperC, #block1 .mta-left ul.policies li.focus .wrapperC{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/sidebox-bottom-hl.gif);}
+
+
+.panel-7A{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-1A.gif);}
+.panel-7B{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-1B.gif);}
+.panel-7C{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-1C.gif);}
+.panel-8A{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-2A.gif);}
+.panel-8B{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-2B.gif);}
+.panel-8C{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-2C.gif);}
+.panel-9A{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-3A.gif);}
+.panel-9B{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-3B.gif);}
+.panel-9C{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-3C.gif);}
+.panel-10A{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-4A.gif);}
+.panel-10B{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-4B.gif);}
+.panel-10C{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-4C.gif);}
+
+.renewalBreadcrumbs #pageNavigation ol{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/top-nav2.gif);}
+
+#block3 .promo .wrapperB{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/block3-promo-panel.gif); }
+
+/* STYLING FOR AJAX LOADING / PROCESSING MESSAGE */
+span.ajax{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/ajax-rsa.gif);}
+
+
+/* RULES FOR AJAX STRUCTURE FIXES - Leave at bottom of file for easy reference */
+#esriLookContainer .ajaxstyling, #ajax_findVehicle .ajaxstyling{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/form-row.gif);}
+#esriLookContainer, #esriLookContainer .formElTop, #ajax_findVehicle, #ajax_findVehicle .formElTop{background-image:none;}
+
+/* autocomplete */
+input.autocomplete-loading{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/ajax-loader6-rsa.gif);}
+
+/* added to the link so the add-on icon can be used instead if required (using standard icon output HTML) - the background positioning and padding will need to change though */
+.brandPanel .addOnList ol li a{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/tick.gif);}
+
+/* TOP HELP LINKS */
+#topHelpLinks{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/need-help-0.gif);}
+#topHelpLinks h2 a{display:block; height:31px; width:110px;}
+#topHelpLinks li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/need-help-1.gif);}
+#topHelpLinks li.last{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/need-help-2.gif);}
+#topHelpLinks li a{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/top-help.gif);}
+
+#topHelpLinks li .bt-wrapper a{background:0 !important;}
+
+/* CONFIRMATION OVERLAY */
+.wrapperOverlay .formInputs li.highlight{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/highlight-bottom-overlay.gif);}
+.wrapperOverlay .highlight .formElTop{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/highlight-top-overlay.gif);}
+.wrapperOverlay .formInputs li.error{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/error-bottom-overlay.gif);}
+.wrapperOverlay .error .formElTop{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/error-top-overlay.gif);}
+.wrapperOverlay .formSection {background-image:none;}
+
+/* CR */
+#packages li.package{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bundle_heading_off.gif);}
+#packages li.on{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bundle_heading_on.gif);}
+
+#customise table tr td{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/customise-td.gif);}
+#customise table tr td.first{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/customise-td-first.gif);}
+#customise table tr td.last{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/customise-td-last.gif);}
+#customise table tr.chosen td.first{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/customise-td-first-chosen.gif);}
+#customise table tr.chosen td.last{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/customise-td-last-chosen.gif);}
+
+.addOns_btClose{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bt_close.gif);}
+
+
+.twoBlocks #selectBundle.grey-panel, .twoBlocks #customiseBundle.grey-panel {background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/important-info-panel-middle-3_r2.png);}
+.twoBlocks #selectBundle.grey-panel .grey-panel-footer, .twoBlocks #customiseBundle.grey-panel .grey-panel-footer{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/important-info-panel-footer-2_r2.png);}
+.twoBlocks #selectBundle.grey-panel .grey-panel-top, .twoBlocks #customiseBundle.grey-panel .grey-panel-top{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/important-info-panel-footer-3_r2.png);}
+#packages .packageC label{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/choose-this-bundle.gif);}
+#packages .on .packageA ul li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/packageA-item-on.gif);}
+
+#upSellOverlay .wrapperOverlayA{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-heading.gif);}
+#upSellOverlay .wrapperOverlayB{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-bg.gif);}
+#upSellOverlay .wrapperOverlayC{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-bottom.gif);}
+#upSellOverlay .wrapperOverlayB .item{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-item.gif);}
+#upSellOverlay .select_this .this_price{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-add-price-bg.gif);}
+#upSellOverlay .selected .this_price{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-added-price-bg.gif) !important;}
+#upSellOverlay .select_this .this_price label{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-add-label.gif);}
+#upSellOverlay .selected .this_price label{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-added-label.gif) !important;}
+#upSellOverlay .wrapperOverlayB h3{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-h3-elipses.gif);}
+#upSellOverlay .view_excess .inner, #upSellOverlay .view_excess .inner_a, #upSellOverlay .view_excess .inner_b{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-overlay-view-excesses.gif); }
+
+#upSellOverlay.breakdownCover #breakdownCover-options td.first{background-image:none;} 
+#upSellOverlay.breakdownCover #breakdownCover-options .included{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/included-small-tick.gif);} 
+#upSellOverlay.breakdownCover #breakdownCover-options .not_included{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-not-included.gif);} 
+#upSellOverlay.breakdownCover #breakdownCover-options td, #upSellOverlay.breakdownCover #breakdownCover-options td.includes
+	{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-td.gif);} 
+#upSellOverlay.breakdownCover #breakdownCover-options th span{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-th.gif);}
+#upSellOverlay.breakdownCover .add_remove{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-add-remove.gif);}
+
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices div{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-price.gif);}
+
+#upSellOverlay.breakdownCover #breakdownCover-options tr.prices div{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/upsell-breakdown-overlay-price.gif);}
+
+.overlay_close .wrapperOverlay .wrapperA .close{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/close-icon-white.gif);}
+
+.addOns_bt_popup_Heading{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bt_heading.png) !important;}
+.addOns_bt_popup_Content{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bt_content.png) !important;}
+.addOns_bt_popup_Spike{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/addon_bt_spike.png) !important;}
+.securesite .panel-10A{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/2block-2panel-2A-securesite.gif);}
+
+.mta #customise table tr.h3 th{background-image: url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/panel-3-1.gif);}
+
+.welcome li{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/arrow1.gif);}
+
+
+#backToQuote .inner, #backToQuote a, #backToQuote input{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/back-to-your-quote.png);}
+#backToQuote .close{background-image:url(http://map-saveouts-r2:8RUduVut@map-saveouts-r2.monitormedia.net/MAP/resources/images/redesign/back-to-your-quote-close.gif);}

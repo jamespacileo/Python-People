@@ -1,0 +1,197 @@
+
+body {
+    background-color: #FFFFFF;
+    font: 13px arial,sans-serif;
+    margin: 0;
+    visibility: visible;
+}
+.a-aa-Vd-ry {
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 100%;
+}
+.d-s-r {
+    display: inline-block;
+    position: relative;
+}
+.a-aa-Vd-aB {
+    height: 30px;
+    line-height: 30px;
+    margin: 8px 15px;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+.greenBox {
+    background-color: #528A13;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.whiteBox {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.redBox {
+    background-color: #B0281A;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.greyBox {
+    background-color: #666666;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.lightredBox {
+    background-color: #DD4B39;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.blackBox {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.blueBox {
+    background-color: #4D90FE;
+    color: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+.rightBox {
+	position: absolute;
+	white-space: nowrap;
+	top: 0px;
+	right: 0px;
+	height: 30px;
+}
+div#container {
+	
+	padding: 10px 18px 10px 18px;
+}
+input.inputText {
+	height: 30px;
+	width: 200px;
+	position: absolute;
+    right: 0;
+    font-size: 1.2em;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+div.inputText {
+    border-radius: 2px 2px 2px 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0 none;
+    padding: 0 8px;
+    text-align: center;
+
+	width: 182px;
+	position: absolute;
+    right: 0;
+}
+div.inputGreen {
+    background-color: #3D9400;
+    background-image: -moz-linear-gradient(center top , #528A13, #528A13);
+    border: 1px solid #29691D;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);    
+}
+div.inputBlue {
+    background-color: #4D90FE;
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+    border: 1px solid #3079ED;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);    
+}
+div.inputRed {
+    background-color: #B0281A;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #B0281A);
+    border: 1px solid #992A1B;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);    
+}
+div.inputGrey {
+    background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #F8F8f8, #F1F1F1);
+    border: 1px solid #D9D9D9;
+    color: #333333;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);    
+}
+div.inputText:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+label.inputText {
+	height: 30px;
+	position: absolute;
+    left: 0;
+    top: 6;
+}
+form#refForm {
+}
+form#refForm div.refField {
+	position:relative;
+	height: 30px;
+	width: 320px;
+	margin-top: 10px;
+    font-family: 1.0em arial,sans-serif;
+}
+form#refForm div.refLoginField {
+    position:relative;
+    height: 30px;
+    width: 260px;
+    margin-top: 10px;
+    font-family: 1.0em arial,sans-serif;
+    margin: 10px auto 0px auto;
+}
+form#refForm table.results {
+    text-align: left;
+    font-size: 1.0em;
+    margin-bottom: 30px;
+}
+form#refForm table.results thead {
+    background-color: #dddddd;
+}
+form#refForm table.results td {
+    padding-left: 5px;
+}
+div#clearBoth {
+	clear: both;
+}

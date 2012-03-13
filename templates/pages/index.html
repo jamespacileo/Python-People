@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load util %}
+
+{% block content %}
+
+        {% if repsonse %}
+
+            <p>SMS Sent!</p>
+
+        {% endif %}
+
+        {% if not repsonse %}
+            
+            <p>SMS Error!</p>
+
+        {% endif %}
+
+{% endblock %}

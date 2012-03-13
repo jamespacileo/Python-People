@@ -1,0 +1,54 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0; padding:0; border:0; outline:0; font-family:Arial, Verdana, Georgia, Times !important; color:#000000 !important; background: 0 !important; overflow:visible !important; height:auto !important; width: auto !important; margin: auto !important;}
+table{width:100% !important; margin: 5px 0 !important;}
+td, th{padding:2px !important; border:1px solid #dddddd !important;}
+p{clear:both !important; padding:5px 0 0 10px !important;}
+.helpMessage .helpTop{padding:10px !important;}
+.helpMessage .helpTop p{color:#999 !important;}
+.formSection h3, .formSection h4, .formSection h5, .formSection h6{padding:15px 10px;}
+#block2 .wrapperA h2, .leftCol label{padding-left:10px;}
+.verisignBox{float:none;}
+.verisignBoxInner{padding-left:10px !important;}
+
+body *{font-size:10pt;}
+
+/* Lets hide what we don't need */
+a.print, a.close, .print #block2 .panel-1C, .formSectionA, .helpIcon, #pageNavigation, #legal, .amendDetails input, .viewFullDetails input, span.noClassNecessary, span.button-01, span.button-01a, span.button-01b, span.button-01c, span.button-02, span.button-03, span.button-04, span.button-05, span.button-06, span.button-06c, span.button-06a, span.button-06b, span.button-07, span.button-08, span.button-09, span.button-09a, span.button-10, span.button-11a, span.button-11b, span.button-12, #skip, #block1, #block3, #pageFooter{display:none !important;}
+/* Lets show what we do need */
+.helpMessage{display:block !important;}
+
+#pageContent{padding:0 0 20px 0;}
+
+h1, h2, h3, h4, h5, h6{width:auto !important; margin:0 !important; float:none !important; display:block !important;}
+h1{font-size:18px !important; font-weight:bold !important;}
+h2{font-size:16px !important; font-weight:bold !important;}
+h3{font-size:14px !important; font-weight:bold !important;}
+h4{font-size:12px !important; font-weight:bold !important;}
+h5{font-size:11px !important; font-weight:bold !important;}
+h6{font-size:11px !important; font-weight:bold !important;}
+#popupMain, .panel-725-submit{margin:0; width:100%}
+
+#block2{width:100% !important; margin-right:5px !important;}
+.twoBlocks #block2{width:80% !important;}
+#borderEmailOverlay{border-bottom: 1px solid rgb(90, 45, 127);}
+
+iframe#paymentFrame{height:1150px !important; width:100% !important;}
+
+.twoBlocks .grey-panel h3, #customise table tr.h3{padding-left:0px !important; background: 0 !important;}
+.twoBlocks .grey-panel p.instalments, .panelPart h3{padding-left:0 !important;}
+
+.quote_values td.total span.period{width:auto; float:none;}
+
+a.list, .list li, .list dt, span.list{padding-left:0;}
+
+.viewFullDetails input, .amendDetails input, .changeVehicle input, .manualVehicleEntry input, .addressNotListed input, .on .packageD input, .cancelCustomise input, .switchPrices input, .customiseYourOwn input{color:#000 !important;}
+
+.grey-panel-725 p, .panel-725-submit p.currency{font-size:30px;}
+.quote_values td.total span.period{line-height:1.7em; text-indent:6px;}
+
+/* Slider */
+span.ttContent{color:#000 !important;}
+
+/* CSS classes Styles for changeEmail.jsp */
+.changeEmailAlign{height: 3px; padding-top: 1px;}
+.changeEmailAlignInput{height: 21px; padding-top: 5px;}
+.changeEmailAlignInput2{height: 21px; padding-top: 2px;}

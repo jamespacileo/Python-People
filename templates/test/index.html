@@ -1,0 +1,152 @@
+{% load util %}
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>client test harness</title>
+
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+	<link type="text/css" rel="stylesheet" href="js/syntaxhighlighter_3.0.83/styles/shCoreDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
+
+	<script type="text/javascript" src="http://127.0.0.1:8000/static/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://127.0.0.1:8000/static/js/smsapp.js"></script>
+</head>
+<body>
+
+<style>
+	p {
+		font-family:"Arial";
+		font-size: 0.85em;
+	}
+
+	p span {
+		font-size: 0.9em;
+		color: blue;
+	}
+
+	.smsButton {
+		-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+		box-shadow:inset 0px 1px 0px 0px #97c4fe;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+		background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+		background-color:#3d94f6;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #337fed;
+		display:inline-block;
+		color:#ffffff;
+		font-family:arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:1px 1px 0px #1570cd;
+	}.smsButton:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+		background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+		background-color:#1e62d0;
+	}.smsButton:active {
+		position:relative;
+		top:1px;
+	}
+</style>
+
+<script type="text/javascript">
+
+    function sendSMS() {
+
+    	dataString = $("#smsForm").serialize();
+
+	    xhr.request({
+	        url: "http://127.0.0.1:8000/sms",
+	        method: "POST",
+	        headers: {
+	            "x-auth-token": "abcde"
+	        },
+	        data: dataString,
+	    }, function(rpcdata){
+	        alert(rpcdata.data);
+	    });
+    }
+</script>
+
+
+
+<!--
+<div style="margin: 20px;">&nbsp;</div>
+
+<p>Step 1.<br /><br /> Contact a member of the Web Apps team to receive a unique client access key:
+<span><br /><br />daniel.stephenson@uk.rsagroup.com<br />james.pacileo@uk.rsagroup.com<br />ian.sandulescu@uk.rsagroup.com</span><br/><br/>
+Please supply the following information:<br /><br/><span>
+- Desired Caller ID Name users will see (e.g. ECHOICE, MORETHAN, MGM)<br/>
+- A message template (e.g. Dear {salutation} {surname}, your quote for MORE TH>N car insurance is &pound;{annual_premium} per annum. Please call 020 8732 2916 if you wish to discuss or buy. Quote ref: {quote_ref}) <br /><br /></span>
+NB: variables chosen for your template will need to be passed from your client calls to the SMS Application (step 2)</p>
+
+<div style="margin: 40px;">&nbsp;</div>
+
+<p>Step 2.<br /><br /> Customise your button or link similar to the one below to match your RSA branded site:</p>
+
+<a href="#" class="smsButton">Send SMS</a>
+
+<pre class="brush: js;">
+	<script type="text/javascript" src="http://tmp.dan.io:8002/static/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://tmp.dan.io:8002/static/js/smsapp.js"></script>
+</pre>
+
+<pre class="brush: js;">
+    <a href="#" class="smsButton">Send SMS</a>
+</pre>
+
+<div style="margin: 40px;">&nbsp;</div>
+<p>Step 3.<br /><br /> </p>
+
+-->
+
+
+<script type="text/javascript">
+
+    function sendSMS() {
+
+    	dataString = $("#smsForm").serialize();
+
+	    xhr.request({
+	        url: "http://127.0.0.1:8000/sms",
+	        method: "POST",
+	        headers: {
+	            "x-auth-token": "abcde"
+	        },
+	        data: dataString,
+	    }, function(rpcdata){
+	        alert(rpcdata.data);
+	    });
+    }
+</script>
+
+
+
+
+<form id="smsForm" name="smsForm" action="http://127.0.0.1:8000/sms/" method="POST">
+<input type="hidden" name="salutation" value="Mr"/>
+<input type="hidden" name="first_name" value="Hulk"/>
+<input type="hidden" name="last_name" value="Hogan"/>
+<input type="hidden" name="quote_ref" value="A1234567890"/>
+<input type="hidden" name="sms_number" value="447920555105"/>
+<input type="hidden" name="sms_senderid" value="MORETHAN"/>
+<input type="hidden" name="sms_message" value="This is a test message123!"/>
+<input type="submit" class="smsButton" value="Send SMS"/>
+</form>
+
+
+
+</body>
+</html>
