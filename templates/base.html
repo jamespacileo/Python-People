@@ -2,9 +2,13 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title></title>
+    <title>{% block title %}Base{% endtitle %} - Python People</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
+
+{% block content %}
+{% endblock %}
 
 </body>
 </html>
