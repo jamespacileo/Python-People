@@ -84,11 +84,8 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'pyppl.urls'
 
-from registration_defaults.settings import *
-
 TEMPLATE_DIRS = (
     os.path.join(ROOT_PATH, 'templates'),
-    REGISTRATION_TEMPLATE_DIR,
 )
 
 INSTALLED_APPS = (
