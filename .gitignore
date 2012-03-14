@@ -1,7 +1,6 @@
 virtualenv
 *.pyc
 *.pyo
-*.db
 .idea**
 project_files**
 *.dll
