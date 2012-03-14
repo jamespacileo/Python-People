@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 virtualenv
 *.pyc
 *.pyo
@@ -9,3 +10,6 @@ web.config
 *.log
 *.DS_Store
 local_settings.py
+=======
+.idea**
+>>>>>>> 5cb64cece05a0ba45fe89b90aecfc47749aef037
