@@ -44,7 +44,7 @@ STATIC_ROOT = os.path.join(ROOT_PATH, 'static')
 
 STATIC_URL = '/static/'
 
-ADMIN_MEDIA_PREFIX = STATIC_URL + 'grappelli/' #admin/
+ADMIN_MEDIA_PREFIX = f'{STATIC_URL}grappelli/'
 
 STATICFILES_DIRS = (
     os.path.join(ROOT_PATH, 'data/tmp'),
